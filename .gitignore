@@ -1,0 +1,29 @@
+# Source transcripts
+/transcripts/
+
+# Generated local summaries
+/analyses/
+
+# Intermediate models and caches
+/corpus-cache/
+*.joblib
+*.npy
+*.npz
+*.pkl
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local files
+file-list.txt
+*.log
+cookies.txt
+*cookies*.txt
+.DS_Store
+Thumbs.db
