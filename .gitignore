@@ -1,9 +1,6 @@
 # Source transcripts
 /transcripts/
 
-# Generated local summaries
-/analyses/
-
 # Intermediate models and caches
 /corpus-cache/
 *.joblib

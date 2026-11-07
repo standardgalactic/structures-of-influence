@@ -1,0 +1,1857 @@
+{
+  "components": {
+    "bertopic": "unavailable",
+    "embedding_similarity": "unavailable",
+    "similarity_tfidf": "available",
+    "stability": "available"
+  },
+  "counts": {
+    "documents_error": 0,
+    "documents_ok": 318,
+    "passages": 1943,
+    "passages_eligible": 1943,
+    "passages_excluded": 0,
+    "words_eligible": 1253912
+  },
+  "diagnostics": [
+    {
+      "message": "filename does not match YYYYMMDD_VIDEOID_TITLE.lang.vtt",
+      "source_path": "20180228_m7VsuqtrxIM_Why I'm Against Antitrust Laws.en-el.vtt",
+      "stage": "ingest",
+      "status": "skipped"
+    },
+    {
+      "message": "video udm69DlvbnA already represented by 20170615_udm69DlvbnA_Supporting Dictators： Realpolitik.en-orig.vtt",
+      "source_path": "20170615_udm69DlvbnA_Supporting Dictators： Realpolitik.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video DagaYGIe9j8 already represented by 20170619_DagaYGIe9j8_＂No Ice Cream for You Comrade＂.en-orig.vtt",
+      "source_path": "20170619_DagaYGIe9j8_＂No Ice Cream for You Comrade＂.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video sqhgGqzPd8E already represented by 20170711_sqhgGqzPd8E_My Intellectual Journey in 15 Books.en-orig.vtt",
+      "source_path": "20170711_sqhgGqzPd8E_My Intellectual Journey in 15 Books.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video lozpa3q5BLE already represented by 20170721_lozpa3q5BLE_Political Incentives Versus Economic Reality.en-orig.vtt",
+      "source_path": "20170721_lozpa3q5BLE_Political Incentives Versus Economic Reality.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video P2gnxVhTci0 already represented by 20170802_P2gnxVhTci0_The Decline of Feudalism and Rise of Capitalism： Part 1.en-orig.vtt",
+      "source_path": "20170802_P2gnxVhTci0_The Decline of Feudalism and Rise of Capitalism： Part 1.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video agPvpo3Qdsk already represented by 20170803_agPvpo3Qdsk_The Decline of Feudalism and Rise of Capitalism： Part 2.en-orig.vtt",
+      "source_path": "20170803_agPvpo3Qdsk_The Decline of Feudalism and Rise of Capitalism： Part 2.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video z3oEBeSo9MA already represented by 20171001_z3oEBeSo9MA_The Language Games of the Left.en-orig.vtt",
+      "source_path": "20171001_z3oEBeSo9MA_The Language Games of the Left.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video zIHzpB7xRE8 already represented by 20171004_zIHzpB7xRE8_Inside the Mind of a Leftist.en-orig.vtt",
+      "source_path": "20171004_zIHzpB7xRE8_Inside the Mind of a Leftist.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jElVTVLMknw already represented by 20171210_jElVTVLMknw_The Problem with Unions.en-orig.vtt",
+      "source_path": "20171210_jElVTVLMknw_The Problem with Unions.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video B1_c4Dl4bAE already represented by 20180103_B1_c4Dl4bAE_The History and Politics of Modern Iran： A Primer.en-orig.vtt",
+      "source_path": "20180103_B1_c4Dl4bAE_The History and Politics of Modern Iran： A Primer.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video zCtJt4TLglw already represented by 20180114_zCtJt4TLglw_Sadiq Khan is Out of Control.en-orig.vtt",
+      "source_path": "20180114_zCtJt4TLglw_Sadiq Khan is Out of Control.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 1qATRlOvfr0 already represented by 20180128_1qATRlOvfr0_The Triangle (TM), or Infinite Horseshoe Theory.en-orig.vtt",
+      "source_path": "20180128_1qATRlOvfr0_The Triangle (TM), or Infinite Horseshoe Theory.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video G42GGKbM87Q already represented by 20180203_G42GGKbM87Q_A Guide to Classical Liberalism.en-orig.vtt",
+      "source_path": "20180203_G42GGKbM87Q_A Guide to Classical Liberalism.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video K6OZuU5VLac already represented by 20180213_K6OZuU5VLac_Classical Liberalism, Part 2： The Rise and Fall (and Rise and Fall).en-orig.vtt",
+      "source_path": "20180213_K6OZuU5VLac_Classical Liberalism, Part 2： The Rise and Fall (and Rise and Fall).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video B1LsEo5JO2E already represented by 20180221_B1LsEo5JO2E_Six Key Lessons from Classical Economics.en-orig.vtt",
+      "source_path": "20180221_B1LsEo5JO2E_Six Key Lessons from Classical Economics.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video m7VsuqtrxIM already represented by 20180228_m7VsuqtrxIM_Why I'm Against Antitrust Laws.en-orig.vtt",
+      "source_path": "20180228_m7VsuqtrxIM_Why I'm Against Antitrust Laws.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video CoLlIHSDHE4 already represented by 20180305_CoLlIHSDHE4_The Economics of Foreign Aid.en-orig.vtt",
+      "source_path": "20180305_CoLlIHSDHE4_The Economics of Foreign Aid.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video MPSMqzT_HPo already represented by 20180317_MPSMqzT_HPo_The Perennial Gale of Creative Destruction.en-orig.vtt",
+      "source_path": "20180317_MPSMqzT_HPo_The Perennial Gale of Creative Destruction.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video qlGokgO3mYQ already represented by 20180328_qlGokgO3mYQ_The Intractable Problem of Democracy.en-orig.vtt",
+      "source_path": "20180328_qlGokgO3mYQ_The Intractable Problem of Democracy.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video FufUVkmVtG4 already represented by 20180406_FufUVkmVtG4_Ultimate Red Pill Books 1.0.en-orig.vtt",
+      "source_path": "20180406_FufUVkmVtG4_Ultimate Red Pill Books 1.0.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video fLlDsNmB5kk already represented by 20180418_fLlDsNmB5kk_How Tony Blair Lied about Crime Statistics.en-orig.vtt",
+      "source_path": "20180418_fLlDsNmB5kk_How Tony Blair Lied about Crime Statistics.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video uHG5iVTqpIE already represented by 20180427_uHG5iVTqpIE_How Tony Blair Turned the UK into a Police State.en-orig.vtt",
+      "source_path": "20180427_uHG5iVTqpIE_How Tony Blair Turned the UK into a Police State.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video IQJtz5XSnH0 already represented by 20180504_IQJtz5XSnH0_The People versus The Elites [Re： Candace Owens and Kanye West].en-orig.vtt",
+      "source_path": "20180504_IQJtz5XSnH0_The People versus The Elites [Re： Candace Owens and Kanye West].en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video tg_UuhHDcGI already represented by 20180510_tg_UuhHDcGI_Won't Someone Think of the Children？ [response to Vee].en-orig.vtt",
+      "source_path": "20180510_tg_UuhHDcGI_Won't Someone Think of the Children？ [response to Vee].en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video JhyY0DpTlLk already represented by 20180515_JhyY0DpTlLk_The Complete Guide to Thomas Sowell's Books (including a Top Ten).en-orig.vtt",
+      "source_path": "20180515_JhyY0DpTlLk_The Complete Guide to Thomas Sowell's Books (including a Top Ten).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Kj42P2_8dG0 already represented by 20180527_Kj42P2_8dG0_Tax Rates and Tax Receipts.en-orig.vtt",
+      "source_path": "20180527_Kj42P2_8dG0_Tax Rates and Tax Receipts.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video vHAsnzALQJk already represented by 20180610_vHAsnzALQJk_Why Keynes was Wrong About Spending vs. Saving.en-orig.vtt",
+      "source_path": "20180610_vHAsnzALQJk_Why Keynes was Wrong About Spending vs. Saving.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 62sxYWPmCZE already represented by 20180617_62sxYWPmCZE_Pricing a Cup of Coffee.en-orig.vtt",
+      "source_path": "20180617_62sxYWPmCZE_Pricing a Cup of Coffee.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video UPPdmgWjecY already represented by 20180718_UPPdmgWjecY_Academic Agent's Top 10 Moments of 2018 (so far).en-orig.vtt",
+      "source_path": "20180718_UPPdmgWjecY_Academic Agent's Top 10 Moments of 2018 (so far).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 7NSkwz1rS64 already represented by 20180719_7NSkwz1rS64_Why did London Vote for Sadiq Khan？ (and why he'll probably win again).en-orig.vtt",
+      "source_path": "20180719_7NSkwz1rS64_Why did London Vote for Sadiq Khan？ (and why he'll probably win again).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 7ut37WqbXjk already represented by 20180820_7ut37WqbXjk_Protectionism versus Free Trade (Final reply to TrueDilTom).en-orig.vtt",
+      "source_path": "20180820_7ut37WqbXjk_Protectionism versus Free Trade (Final reply to TrueDilTom).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video f9ACkNzt6pc already represented by 20180829_f9ACkNzt6pc_The Importance of Time in Calculating Economic Prosperity.en-orig.vtt",
+      "source_path": "20180829_f9ACkNzt6pc_The Importance of Time in Calculating Economic Prosperity.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0RCuKIcZ_mY already represented by 20180912_0RCuKIcZ_mY_The Truth About Herbert Hoover.en-orig.vtt",
+      "source_path": "20180912_0RCuKIcZ_mY_The Truth About Herbert Hoover.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Y72HqpwBJ7o already represented by 20180921_Y72HqpwBJ7o_Economics and Politics： Basic Definitions.en-orig.vtt",
+      "source_path": "20180921_Y72HqpwBJ7o_Economics and Politics： Basic Definitions.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jggCt6X1QI4 already represented by 20181002_jggCt6X1QI4_The Basic Economic Functions in the Firm.en-orig.vtt",
+      "source_path": "20181002_jggCt6X1QI4_The Basic Economic Functions in the Firm.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video iIONcSbrxbQ already represented by 20181015_iIONcSbrxbQ_Why Workers Are Not Exploited in the Free Market.en-orig.vtt",
+      "source_path": "20181015_iIONcSbrxbQ_Why Workers Are Not Exploited in the Free Market.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video w-UUW_Z7UD8 already represented by 20181024_w-UUW_Z7UD8_Pro-Market vs. ＂Pro-Business＂.en-orig.vtt",
+      "source_path": "20181024_w-UUW_Z7UD8_Pro-Market vs. ＂Pro-Business＂.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video fWDn1-dyXDg already represented by 20181101_fWDn1-dyXDg_The Origins of Money.en-orig.vtt",
+      "source_path": "20181101_fWDn1-dyXDg_The Origins of Money.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video nnisOz2nGFc already represented by 20181113_nnisOz2nGFc_How Does the Money Supply Affect Inflation？.en-orig.vtt",
+      "source_path": "20181113_nnisOz2nGFc_How Does the Money Supply Affect Inflation？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video s5Kx6-nyVkk already represented by 20181118_s5Kx6-nyVkk_Economics： The Austrian School vs. The Chicago School.en-orig.vtt",
+      "source_path": "20181118_s5Kx6-nyVkk_Economics： The Austrian School vs. The Chicago School.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video MSOK1D1aPw4 already represented by 20181120_MSOK1D1aPw4_Individualism vs. Collectivism (Reply to Distributist).en-orig.vtt",
+      "source_path": "20181120_MSOK1D1aPw4_Individualism vs. Collectivism (Reply to Distributist).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video AQBgY-kJhrQ already represented by 20181206_AQBgY-kJhrQ_On ＂Market Failure＂ and ＂Public Goods＂.en-orig.vtt",
+      "source_path": "20181206_AQBgY-kJhrQ_On ＂Market Failure＂ and ＂Public Goods＂.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ZL8zVgd2lXI already represented by 20181223_ZL8zVgd2lXI_A Christmas Carol.en-orig.vtt",
+      "source_path": "20181223_ZL8zVgd2lXI_A Christmas Carol.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video YHaoDU_vM0Y already represented by 20181230_YHaoDU_vM0Y_The Problem with the BBC.en-orig.vtt",
+      "source_path": "20181230_YHaoDU_vM0Y_The Problem with the BBC.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QPqPnWTaMrE already represented by 20190101_QPqPnWTaMrE_A Response to Tik's Video on Basic Economics.en-orig.vtt",
+      "source_path": "20190101_QPqPnWTaMrE_A Response to Tik's Video on Basic Economics.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wn4S7J9EwGk already represented by 20190111_wn4S7J9EwGk_The Coming California Catastrophe.en-orig.vtt",
+      "source_path": "20190111_wn4S7J9EwGk_The Coming California Catastrophe.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9syhXep1XWI already represented by 20190112_9syhXep1XWI_How Progressivism Rewrites the Past (response to The Britisher).en-orig.vtt",
+      "source_path": "20190112_9syhXep1XWI_How Progressivism Rewrites the Past (response to The Britisher).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 3p02V4yXK8U already represented by 20190120_3p02V4yXK8U_An Individualist Class Analysis.en-orig.vtt",
+      "source_path": "20190120_3p02V4yXK8U_An Individualist Class Analysis.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video UQvhLBhMIt8 already represented by 20190129_UQvhLBhMIt8_Sadiq Khan Takes Back Rent Control.en-orig.vtt",
+      "source_path": "20190129_UQvhLBhMIt8_Sadiq Khan Takes Back Rent Control.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video pK_CgcHrgNA already represented by 20190208_pK_CgcHrgNA_The Economic Policies that Ruined Venezuela.en-orig.vtt",
+      "source_path": "20190208_pK_CgcHrgNA_The Economic Policies that Ruined Venezuela.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video KAJrycrD6jg already represented by 20190209_KAJrycrD6jg_The Economic Policies that Ruined Zimbabwe.en-orig.vtt",
+      "source_path": "20190209_KAJrycrD6jg_The Economic Policies that Ruined Zimbabwe.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video pYjm4VPtPAk already represented by 20190218_pYjm4VPtPAk_Economics： The Tendency Towards Equilibrium.en-orig.vtt",
+      "source_path": "20190218_pYjm4VPtPAk_Economics： The Tendency Towards Equilibrium.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video rK9mLSa2syM already represented by 20190222_rK9mLSa2syM_Post-Keynesians Don't Understand Economics or Coca Cola.en-orig.vtt",
+      "source_path": "20190222_rK9mLSa2syM_Post-Keynesians Don't Understand Economics or Coca Cola.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wWzwBpNIDik already represented by 20190222_wWzwBpNIDik_Post-Keynesians Don't Understand Economics, Part 2.en-orig.vtt",
+      "source_path": "20190222_wWzwBpNIDik_Post-Keynesians Don't Understand Economics, Part 2.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video vayWtWENsDw already represented by 20190224_vayWtWENsDw_Post-Keynesians Don't Understand Economics, Part 3.en-orig.vtt",
+      "source_path": "20190224_vayWtWENsDw_Post-Keynesians Don't Understand Economics, Part 3.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video SSCgYJYYOK8 already represented by 20190301_SSCgYJYYOK8_A Brief Economic History of Wales.en-orig.vtt",
+      "source_path": "20190301_SSCgYJYYOK8_A Brief Economic History of Wales.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video xfj_HeZUYJY already represented by 20190406_xfj_HeZUYJY_On Free Speech and Property Rights [to The Britisher and Sargon of Akkad].en-orig.vtt",
+      "source_path": "20190406_xfj_HeZUYJY_On Free Speech and Property Rights [to The Britisher and Sargon of Akkad].en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video vlnNsLj8-LY already represented by 20190410_vlnNsLj8-LY_Thomas Hobbes's Argument For Absolute Monarchy.en-orig.vtt",
+      "source_path": "20190410_vlnNsLj8-LY_Thomas Hobbes's Argument For Absolute Monarchy.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video RUrNrJcSvZM already represented by 20190412_RUrNrJcSvZM_Elite Theory： Gaetano Mosca and Vilfredo Pareto.en-orig.vtt",
+      "source_path": "20190412_RUrNrJcSvZM_Elite Theory： Gaetano Mosca and Vilfredo Pareto.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9p51t2MHcms already represented by 20190419_9p51t2MHcms_Climate Change： The Maldives Mystery.en-orig.vtt",
+      "source_path": "20190419_9p51t2MHcms_Climate Change： The Maldives Mystery.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video RPG_xv40vKs already represented by 20190517_RPG_xv40vKs_Masters of Austrian Economics #1： Carl Menger.en-orig.vtt",
+      "source_path": "20190517_RPG_xv40vKs_Masters of Austrian Economics #1： Carl Menger.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yZ6cstY4bLI already represented by 20190520_yZ6cstY4bLI_Masters of Austrian Economics #2： Eugen Böhm-Bawerk.en-orig.vtt",
+      "source_path": "20190520_yZ6cstY4bLI_Masters of Austrian Economics #2： Eugen Böhm-Bawerk.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video z5zXMfm0oBE already represented by 20190526_z5zXMfm0oBE_Masters of Austrian Economics #3： Ludwig von Mises.en-orig.vtt",
+      "source_path": "20190526_z5zXMfm0oBE_Masters of Austrian Economics #3： Ludwig von Mises.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video E0vdcFp1pAo already represented by 20190607_E0vdcFp1pAo_Jeremy Clarkson is right about Sadiq Khan.en-orig.vtt",
+      "source_path": "20190607_E0vdcFp1pAo_Jeremy Clarkson is right about Sadiq Khan.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 4A6O2BzpWvo already represented by 20190610_4A6O2BzpWvo_Masters of Austrian Economics #4： F.A. Hayek.en-orig.vtt",
+      "source_path": "20190610_4A6O2BzpWvo_Masters of Austrian Economics #4： F.A. Hayek.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 4WnKsmpbohg already represented by 20190620_4WnKsmpbohg_It's Time to Defund the BBC.en-orig.vtt",
+      "source_path": "20190620_4WnKsmpbohg_It's Time to Defund the BBC.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video p-XbPGZEv3Q already represented by 20190630_p-XbPGZEv3Q_Masters of Austrian Economics #5： Murray N. Rothbard.en-orig.vtt",
+      "source_path": "20190630_p-XbPGZEv3Q_Masters of Austrian Economics #5： Murray N. Rothbard.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video LCYqjXIuiEE already represented by 20190730_LCYqjXIuiEE_The Economic Costs of Immigration to the UK.en-orig.vtt",
+      "source_path": "20190730_LCYqjXIuiEE_The Economic Costs of Immigration to the UK.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video x8VCP1hgSf8 already represented by 20190809_x8VCP1hgSf8_The Law of Differentiation.en-orig.vtt",
+      "source_path": "20190809_x8VCP1hgSf8_The Law of Differentiation.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video aBVzc92-Nbc already represented by 20190812_aBVzc92-Nbc_Diane Abbott： Immigration and Social Housing.en-orig.vtt",
+      "source_path": "20190812_aBVzc92-Nbc_Diane Abbott： Immigration and Social Housing.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video mEX13GrLwqg already represented by 20190826_mEX13GrLwqg_Does the UK Owe India $45 Trillion？.en-orig.vtt",
+      "source_path": "20190826_mEX13GrLwqg_Does the UK Owe India $45 Trillion？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 1ivZb0UHDrs already represented by 20190913_1ivZb0UHDrs_How to Think Like James O’Brien.en-orig.vtt",
+      "source_path": "20190913_1ivZb0UHDrs_How to Think Like James O’Brien.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video INqgKBPL1EI already represented by 20190917_INqgKBPL1EI_Eject Scotland!.en-orig.vtt",
+      "source_path": "20190917_INqgKBPL1EI_Eject Scotland!.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video VBWhKo5-llw already represented by 20190918_VBWhKo5-llw_Cost, Opportunity Cost, and Sunk Cost.en-orig.vtt",
+      "source_path": "20190918_VBWhKo5-llw_Cost, Opportunity Cost, and Sunk Cost.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video rZNdDkcXjAw already represented by 20191011_rZNdDkcXjAw_＂The Disadvantage of Labour＂.en-orig.vtt",
+      "source_path": "20191011_rZNdDkcXjAw_＂The Disadvantage of Labour＂.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video pI7EA8M95ro already represented by 20191031_pI7EA8M95ro_The World View of Leon Wieseltier.en-orig.vtt",
+      "source_path": "20191031_pI7EA8M95ro_The World View of Leon Wieseltier.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video xQreNYUsi34 already represented by 20191114_xQreNYUsi34_Four Tactics of Linguistic Terrorism and How to Combat Them.en-orig.vtt",
+      "source_path": "20191114_xQreNYUsi34_Four Tactics of Linguistic Terrorism and How to Combat Them.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Ghe3qaktJGU already represented by 20191223_Ghe3qaktJGU_Why are Middle-class People so Left Wing？.en-orig.vtt",
+      "source_path": "20191223_Ghe3qaktJGU_Why are Middle-class People so Left Wing？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video sA6Q1rE7XHo already represented by 20200103_sA6Q1rE7XHo_What Happened in Iran in November 2019？.en-orig.vtt",
+      "source_path": "20200103_sA6Q1rE7XHo_What Happened in Iran in November 2019？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 1pmpy6yMqZE already represented by 20200119_1pmpy6yMqZE_Does Excess Capacity Invalidate Austrian Price Theory？.en-orig.vtt",
+      "source_path": "20200119_1pmpy6yMqZE_Does Excess Capacity Invalidate Austrian Price Theory？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -g77amDi2SA already represented by 20200120_-g77amDi2SA_Life in the Soviet Union.en-orig.vtt",
+      "source_path": "20200120_-g77amDi2SA_Life in the Soviet Union.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video geBHeJYqL-o already represented by 20200120_geBHeJYqL-o_The Economic Policies that Ruined Liberia.en-orig.vtt",
+      "source_path": "20200120_geBHeJYqL-o_The Economic Policies that Ruined Liberia.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jpFl9P8rC3o already represented by 20200130_jpFl9P8rC3o_The Mike Graham Containment.en-orig.vtt",
+      "source_path": "20200130_jpFl9P8rC3o_The Mike Graham Containment.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video BM5STDnjqvw already represented by 20200214_BM5STDnjqvw_The Managerial Elites.en-orig.vtt",
+      "source_path": "20200214_BM5STDnjqvw_The Managerial Elites.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 2f0Hqbyvsz4 already represented by 20200229_2f0Hqbyvsz4_What Marx Got Right.en-orig.vtt",
+      "source_path": "20200229_2f0Hqbyvsz4_What Marx Got Right.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video O-Qnk_Fv9vQ already represented by 20200229_O-Qnk_Fv9vQ_Liberalism vs. Reality.en-orig.vtt",
+      "source_path": "20200229_O-Qnk_Fv9vQ_Liberalism vs. Reality.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9k-TH6c_8qM already represented by 20200304_9k-TH6c_8qM_Further Implications of Managerial Capitalism.en-orig.vtt",
+      "source_path": "20200304_9k-TH6c_8qM_Further Implications of Managerial Capitalism.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 6n2Bnnw-c6U already represented by 20200309_6n2Bnnw-c6U_Deconstructing Boomer Truth #1： Our Community.en-orig.vtt",
+      "source_path": "20200309_6n2Bnnw-c6U_Deconstructing Boomer Truth #1： Our Community.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 24FThxQYCXI already represented by 20200315_24FThxQYCXI_Deconstructing Boomer Truth #2： The People vs. Madison Grant.en-orig.vtt",
+      "source_path": "20200315_24FThxQYCXI_Deconstructing Boomer Truth #2： The People vs. Madison Grant.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video P3mgEttLTIU already represented by 20200318_P3mgEttLTIU_All About Government Bonds.en-orig.vtt",
+      "source_path": "20200318_P3mgEttLTIU_All About Government Bonds.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video A_JK72cdJcI already represented by 20200320_A_JK72cdJcI_Deconstructing Boomer Truth #3： Trumpton vs. The Raggy Dolls.en-orig.vtt",
+      "source_path": "20200320_A_JK72cdJcI_Deconstructing Boomer Truth #3： Trumpton vs. The Raggy Dolls.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video MhVaDsoGiIo already represented by 20200327_MhVaDsoGiIo_All About Investment Banks.en-orig.vtt",
+      "source_path": "20200327_MhVaDsoGiIo_All About Investment Banks.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video TpAFKM86qvw already represented by 20200330_TpAFKM86qvw_Deconstructing Boomer Truth #4： Act Your Age.en-orig.vtt",
+      "source_path": "20200330_TpAFKM86qvw_Deconstructing Boomer Truth #4： Act Your Age.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wKII7lNsVIE already represented by 20200413_wKII7lNsVIE_Star Wars： In Defence of Emperor Palpatine.en-orig.vtt",
+      "source_path": "20200413_wKII7lNsVIE_Star Wars： In Defence of Emperor Palpatine.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video uSZDmwx0hQY already represented by 20200419_uSZDmwx0hQY_Econ Shots#1： How Airline Cartels Kept Prices High.en-orig.vtt",
+      "source_path": "20200419_uSZDmwx0hQY_Econ Shots#1： How Airline Cartels Kept Prices High.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video LgFPl4tisg4 already represented by 20200422_LgFPl4tisg4_Econ Shots#2： How De Beers Kept Diamond Prices High.en-orig.vtt",
+      "source_path": "20200422_LgFPl4tisg4_Econ Shots#2： How De Beers Kept Diamond Prices High.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video qSYlzxczAY4 already represented by 20200423_qSYlzxczAY4_Debunking Modern Monetary Theory (MMT).en-orig.vtt",
+      "source_path": "20200423_qSYlzxczAY4_Debunking Modern Monetary Theory (MMT).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -XFGHjPDMQY already represented by 20200426_-XFGHjPDMQY_Econ Shots #3： The Federal Trade Commission vs. Morton Salt (1948).en-orig.vtt",
+      "source_path": "20200426_-XFGHjPDMQY_Econ Shots #3： The Federal Trade Commission vs. Morton Salt (1948).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video MhkL5nWm8A8 already represented by 20200429_MhkL5nWm8A8_Econ Shots #4： Rampant Inflation in the Confederacy.en-orig.vtt",
+      "source_path": "20200429_MhkL5nWm8A8_Econ Shots #4： Rampant Inflation in the Confederacy.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 8bQXckaOArE already represented by 20200503_8bQXckaOArE_Econ Shots #5： Capital as a Waystation to Consumer Goods.en-orig.vtt",
+      "source_path": "20200503_8bQXckaOArE_Econ Shots #5： Capital as a Waystation to Consumer Goods.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video aLyCVGkwhB4 already represented by 20200504_aLyCVGkwhB4_Deconstructing Boomer Truth #5： How Were the Boomers Made？.en-orig.vtt",
+      "source_path": "20200504_aLyCVGkwhB4_Deconstructing Boomer Truth #5： How Were the Boomers Made？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video CzVVJ2Wl35o already represented by 20200506_CzVVJ2Wl35o_Econ Shots #6： Statistics are the Tool of Government.en-orig.vtt",
+      "source_path": "20200506_CzVVJ2Wl35o_Econ Shots #6： Statistics are the Tool of Government.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video c3jZobYUxT4 already represented by 20200510_c3jZobYUxT4_Econ Shots #7： The Worshipful Company of Makers of Playing Cards.en-orig.vtt",
+      "source_path": "20200510_c3jZobYUxT4_Econ Shots #7： The Worshipful Company of Makers of Playing Cards.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video DsPslSJAkak already represented by 20200513_DsPslSJAkak_Econ Shots #8： Diseconomies of Scale (and Burgers).en-orig.vtt",
+      "source_path": "20200513_DsPslSJAkak_Econ Shots #8： Diseconomies of Scale (and Burgers).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video m3QMUK-fJBo already represented by 20200517_m3QMUK-fJBo_Econ Shots #9： British Unions and Unemployment in the 1970s.en-orig.vtt",
+      "source_path": "20200517_m3QMUK-fJBo_Econ Shots #9： British Unions and Unemployment in the 1970s.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0-UBd_hs0Xs already represented by 20200520_0-UBd_hs0Xs_White Flight ⧸ Black Flight.en-orig.vtt",
+      "source_path": "20200520_0-UBd_hs0Xs_White Flight ⧸ Black Flight.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Op-n4vK-6Nc already represented by 20200520_Op-n4vK-6Nc_Econ Shots #10： Housing in San Francisco since 1970.en-orig.vtt",
+      "source_path": "20200520_Op-n4vK-6Nc_Econ Shots #10： Housing in San Francisco since 1970.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video moASAdrwvs0 already represented by 20200524_moASAdrwvs0_Econ Shots #11： Rampant Welfarism in Uruguay in the 1960s.en-orig.vtt",
+      "source_path": "20200524_moASAdrwvs0_Econ Shots #11： Rampant Welfarism in Uruguay in the 1960s.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video hoTcl5l9dTw already represented by 20200527_hoTcl5l9dTw_Econ Shots #12： How Price Controls on Food Lost the City of Antwerp to the Spanish in 1585.en-orig.vtt",
+      "source_path": "20200527_hoTcl5l9dTw_Econ Shots #12： How Price Controls on Food Lost the City of Antwerp to the Spanish in 1585.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video w8BAAV93lsk already represented by 20200531_w8BAAV93lsk_Econ Shots #13： The Stand-by Capital Improvements Act of 1962.en-orig.vtt",
+      "source_path": "20200531_w8BAAV93lsk_Econ Shots #13： The Stand-by Capital Improvements Act of 1962.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video rhHT6HvFRE4 already represented by 20200603_rhHT6HvFRE4_Econ Shots #14： Egg Overproduction in 1959.en-orig.vtt",
+      "source_path": "20200603_rhHT6HvFRE4_Econ Shots #14： Egg Overproduction in 1959.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video epKQe9JHyG8 already represented by 20200612_epKQe9JHyG8_Revolution and Counter-revolution.en-orig.vtt",
+      "source_path": "20200612_epKQe9JHyG8_Revolution and Counter-revolution.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video M4c5GyFF8is already represented by 20200717_M4c5GyFF8is_Tony Blair, Immigration and Pensions.en-orig.vtt",
+      "source_path": "20200717_M4c5GyFF8is_Tony Blair, Immigration and Pensions.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video qCkxsfCLJLo already represented by 20200801_qCkxsfCLJLo_How Does Amazon Work？.en-orig.vtt",
+      "source_path": "20200801_qCkxsfCLJLo_How Does Amazon Work？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video JygtFzKHVo0 already represented by 20200808_JygtFzKHVo0_How Do McDonald’s Franchises Work？.en-orig.vtt",
+      "source_path": "20200808_JygtFzKHVo0_How Do McDonald’s Franchises Work？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video C33AdAIkNXA already represented by 20200816_C33AdAIkNXA_Why is China Producing So Much Steel？.en-orig.vtt",
+      "source_path": "20200816_C33AdAIkNXA_Why is China Producing So Much Steel？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wvcvph-dpfE already represented by 20200817_wvcvph-dpfE_Iran： The Shah's ＂White Revolution＂.en-orig.vtt",
+      "source_path": "20200817_wvcvph-dpfE_Iran： The Shah's ＂White Revolution＂.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video kSElkFYbBDE already represented by 20200818_kSElkFYbBDE_The Complete Guide for Getting into Batman Comics (with Chronology and Reading Order).en-orig.vtt",
+      "source_path": "20200818_kSElkFYbBDE_The Complete Guide for Getting into Batman Comics (with Chronology and Reading Order).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ZtMufUG74mk already represented by 20200929_ZtMufUG74mk_The Difference between The CEO and The Chairman of a Company.en-orig.vtt",
+      "source_path": "20200929_ZtMufUG74mk_The Difference between The CEO and The Chairman of a Company.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ngslhUA3TAk already represented by 20201007_ngslhUA3TAk_The Economic Policies that Ruined Haiti.en-orig.vtt",
+      "source_path": "20201007_ngslhUA3TAk_The Economic Policies that Ruined Haiti.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video niiF8hCSrYQ already represented by 20201011_niiF8hCSrYQ_Demoralization： What Yuri Bezmenov Didn't Tell You.en-orig.vtt",
+      "source_path": "20201011_niiF8hCSrYQ_Demoralization： What Yuri Bezmenov Didn't Tell You.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QK32o2jqEH4 already represented by 20201118_QK32o2jqEH4_Another Way of Reading George Orwell's 1984.en-orig.vtt",
+      "source_path": "20201118_QK32o2jqEH4_Another Way of Reading George Orwell's 1984.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video NVaxXUyxYbI already represented by 20201129_NVaxXUyxYbI_Ten Rules for Truth-seeking.en-orig.vtt",
+      "source_path": "20201129_NVaxXUyxYbI_Ten Rules for Truth-seeking.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video SGWdYT9W3m0 already represented by 20201218_SGWdYT9W3m0_Deconstructing Boomer Truth #6： Generation X and the Rise of the Midwit.en-orig.vtt",
+      "source_path": "20201218_SGWdYT9W3m0_Deconstructing Boomer Truth #6： Generation X and the Rise of the Midwit.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yW-jV4BFBFA already represented by 20201220_yW-jV4BFBFA_Deconstructing Boomer Truth #9： On Zoomers - Who are Generation Z？.en-orig.vtt",
+      "source_path": "20201220_yW-jV4BFBFA_Deconstructing Boomer Truth #9： On Zoomers - Who are Generation Z？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QkW838zfX50 already represented by 20201224_QkW838zfX50_The Deepest Lore #17  Old Footage of London.en-orig.vtt",
+      "source_path": "20201224_QkW838zfX50_The Deepest Lore #17  Old Footage of London.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ppbahHcwDro already represented by 20210131_ppbahHcwDro_Issues with Libertarian Arguments Against Socialism, Part 1.en-orig.vtt",
+      "source_path": "20210131_ppbahHcwDro_Issues with Libertarian Arguments Against Socialism, Part 1.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 7RQXerO8JxQ already represented by 20210204_7RQXerO8JxQ_The Deepest Lore #23： Stop-motion Classic British Kids TV Cozy Stream.en-orig.vtt",
+      "source_path": "20210204_7RQXerO8JxQ_The Deepest Lore #23： Stop-motion Classic British Kids TV Cozy Stream.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ibbuiWQjFa0 already represented by 20210217_ibbuiWQjFa0_Issues with Libertarian Arguments Against Socialism, Part 2.en-orig.vtt",
+      "source_path": "20210217_ibbuiWQjFa0_Issues with Libertarian Arguments Against Socialism, Part 2.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video sAxVs_jJYHw already represented by 20210218_sAxVs_jJYHw_Issues with Libertarian Arguments Against Socialism, Part 3.en-orig.vtt",
+      "source_path": "20210218_sAxVs_jJYHw_Issues with Libertarian Arguments Against Socialism, Part 3.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video u_-V-EY8f6A already represented by 20210221_u_-V-EY8f6A_Was Life Better in 1381 than 1831？.en-orig.vtt",
+      "source_path": "20210221_u_-V-EY8f6A_Was Life Better in 1381 than 1831？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yNbqg3iZL-k already represented by 20210222_yNbqg3iZL-k_What Can Carl Schmitt Teach Tim Pool？.en-orig.vtt",
+      "source_path": "20210222_yNbqg3iZL-k_What Can Carl Schmitt Teach Tim Pool？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video N_njJHwFa4s already represented by 20210228_N_njJHwFa4s_Steven Pinker, The Better Angels of Our Nature： A Critique.en-orig.vtt",
+      "source_path": "20210228_N_njJHwFa4s_Steven Pinker, The Better Angels of Our Nature： A Critique.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video b-8TduOKs3w already represented by 20220609_b-8TduOKs3w_How Economic Mismanagement Has Led to Man-Made Distasters.en-orig.vtt",
+      "source_path": "20220609_b-8TduOKs3w_How Economic Mismanagement Has Led to Man-Made Distasters.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video klwgwm5dojM already represented by 20220609_klwgwm5dojM_Are Price Controls Ever Justified？ (The Results are Never Good).en-orig.vtt",
+      "source_path": "20220609_klwgwm5dojM_Are Price Controls Ever Justified？ (The Results are Never Good).en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video KQbAoG3N3zk already represented by 20220920_KQbAoG3N3zk_Tony Blair Telling It Like It Is.en-orig.vtt",
+      "source_path": "20220920_KQbAoG3N3zk_Tony Blair Telling It Like It Is.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video rdeHxM88g0k already represented by 20230715_rdeHxM88g0k_On Zoomers.en-orig.vtt",
+      "source_path": "20230715_rdeHxM88g0k_On Zoomers.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0WwJqWRw3aY already represented by 20230912_0WwJqWRw3aY_How Lenin & Trotsky Conquered Russia Using These Tactics.en-orig.vtt",
+      "source_path": "20230912_0WwJqWRw3aY_How Lenin & Trotsky Conquered Russia Using These Tactics.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0diVA-7mXF0 already represented by 20231005_0diVA-7mXF0_The Deepest Lore #136： An In-Depth Guide to WWE Television Before RAW.en-orig.vtt",
+      "source_path": "20231005_0diVA-7mXF0_The Deepest Lore #136： An In-Depth Guide to WWE Television Before RAW.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ovWagdWkNSk already represented by 20231212_ovWagdWkNSk_A Debate on Normative Gender Roles and Sexual Health.en-orig.vtt",
+      "source_path": "20231212_ovWagdWkNSk_A Debate on Normative Gender Roles and Sexual Health.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 8VqSAQa-zug already represented by 20240122_8VqSAQa-zug_What Libertarians Get Wrong About Free Trade.en-orig.vtt",
+      "source_path": "20240122_8VqSAQa-zug_What Libertarians Get Wrong About Free Trade.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video WGxKHXvmg28 already represented by 20240220_WGxKHXvmg28_The American Empire： A Global Superpower Explained.en-orig.vtt",
+      "source_path": "20240220_WGxKHXvmg28_The American Empire： A Global Superpower Explained.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 8b2vrP4f8aQ already represented by 20240802_8b2vrP4f8aQ_Tony Blair's Triple Shakedown： How NGOs Run the World.en-orig.vtt",
+      "source_path": "20240802_8b2vrP4f8aQ_Tony Blair's Triple Shakedown： How NGOs Run the World.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video epxYj9vStJA already represented by 20241007_epxYj9vStJA_Ultimate Red Pill Books 2.0.en-orig.vtt",
+      "source_path": "20241007_epxYj9vStJA_Ultimate Red Pill Books 2.0.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video er_IGskG22c already represented by 20241127_er_IGskG22c_What Is Slop and What Is Not Slop.en-orig.vtt",
+      "source_path": "20241127_er_IGskG22c_What Is Slop and What Is Not Slop.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Ff1s4Sq3H58 already represented by 20241128_Ff1s4Sq3H58_The Nuclear Bomb Paradox.en-orig.vtt",
+      "source_path": "20241128_Ff1s4Sq3H58_The Nuclear Bomb Paradox.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video fj41EPhgOFQ already represented by 20241209_fj41EPhgOFQ_Ten Left-wing Books James Lindsay Should Read.en-orig.vtt",
+      "source_path": "20241209_fj41EPhgOFQ_Ten Left-wing Books James Lindsay Should Read.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video eYmLciSeWkw already represented by 20241210_eYmLciSeWkw_Ten Reasons Conservatives Are Total Stone Cold LOSERS.en-orig.vtt",
+      "source_path": "20241210_eYmLciSeWkw_Ten Reasons Conservatives Are Total Stone Cold LOSERS.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 8Wo6Tv6u4Ns already represented by 20241216_8Wo6Tv6u4Ns_Is It ALL Accidental or Do the Elites Hold Power？.en-orig.vtt",
+      "source_path": "20241216_8Wo6Tv6u4Ns_Is It ALL Accidental or Do the Elites Hold Power？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video bEQtvVmsp28 already represented by 20241230_bEQtvVmsp28_Elon Musk vs. The People： Capitalist Imperialism is Fuelling Mass Immigration.en-orig.vtt",
+      "source_path": "20241230_bEQtvVmsp28_Elon Musk vs. The People： Capitalist Imperialism is Fuelling Mass Immigration.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video vyPXdwL8v6A already represented by 20250103_vyPXdwL8v6A_Tap into a Happier You with 60 PROVEN Maxims!.en-orig.vtt",
+      "source_path": "20250103_vyPXdwL8v6A_Tap into a Happier You with 60 PROVEN Maxims!.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 1iywv2pkMVo already represented by 20250106_1iywv2pkMVo_Against 'Vibes', Against Cope, Against Captive Dreams.en-orig.vtt",
+      "source_path": "20250106_1iywv2pkMVo_Against 'Vibes', Against Cope, Against Captive Dreams.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ZQUkOOWWa5o already represented by 20250108_ZQUkOOWWa5o_The Top 5 Dishonest Rhetorical Tactics of High Verbal IQs.en-orig.vtt",
+      "source_path": "20250108_ZQUkOOWWa5o_The Top 5 Dishonest Rhetorical Tactics of High Verbal IQs.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video oE0-XEfgOVo already represented by 20250113_oE0-XEfgOVo_What's the REAL Connection Between Anti-Capitalism and Nationalism？.en-orig.vtt",
+      "source_path": "20250113_oE0-XEfgOVo_What's the REAL Connection Between Anti-Capitalism and Nationalism？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video S-U0tNtibcc already represented by 20250114_S-U0tNtibcc_Is Integration REALLY Better Than Multiculturalism for Society？.en-orig.vtt",
+      "source_path": "20250114_S-U0tNtibcc_Is Integration REALLY Better Than Multiculturalism for Society？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 51_uz-BtvOg already represented by 20250120_51_uz-BtvOg_Why the System No Longer Needs to Censor Social Media.en-orig.vtt",
+      "source_path": "20250120_51_uz-BtvOg_Why the System No Longer Needs to Censor Social Media.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9kKwaMOTJjU already represented by 20250217_9kKwaMOTJjU_FATHER of Geopolitics Teaches MOST Important Lesson.en-orig.vtt",
+      "source_path": "20250217_9kKwaMOTJjU_FATHER of Geopolitics Teaches MOST Important Lesson.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video aC1M_a7ycj4 already represented by 20250226_aC1M_a7ycj4_Woke Has Been Completely Put Away.en-orig.vtt",
+      "source_path": "20250226_aC1M_a7ycj4_Woke Has Been Completely Put Away.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video IeqpopP18VM already represented by 20250227_IeqpopP18VM_Putin and Trump Signal the End of the Post-War Liberal Order.en-orig.vtt",
+      "source_path": "20250227_IeqpopP18VM_Putin and Trump Signal the End of the Post-War Liberal Order.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 12KacpcZfbs already represented by 20250303_12KacpcZfbs_The Return of Great Power Politics.en-orig.vtt",
+      "source_path": "20250303_12KacpcZfbs_The Return of Great Power Politics.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video eW5EUP4_790 already represented by 20250305_eW5EUP4_790_The Return of the Great Men of History.en-orig.vtt",
+      "source_path": "20250305_eW5EUP4_790_The Return of the Great Men of History.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video OQvJYHg3yR4 already represented by 20250306_OQvJYHg3yR4_The End of Boomer Truth and the WW2 Mindset？.en-orig.vtt",
+      "source_path": "20250306_OQvJYHg3yR4_The End of Boomer Truth and the WW2 Mindset？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wbMScKDpMhE already represented by 20250310_wbMScKDpMhE_Is Europe An ＂Enemy Of America＂？.en-orig.vtt",
+      "source_path": "20250310_wbMScKDpMhE_Is Europe An ＂Enemy Of America＂？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 5U4kXc8QiD4 already represented by 20250311_5U4kXc8QiD4_Why I Hate Rory Stewart.en-orig.vtt",
+      "source_path": "20250311_5U4kXc8QiD4_Why I Hate Rory Stewart.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Ex36Tx959OM already represented by 20250324_Ex36Tx959OM_What The World Wars Destroyed In Europe.en-orig.vtt",
+      "source_path": "20250324_Ex36Tx959OM_What The World Wars Destroyed In Europe.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ZFTwXePX8MU already represented by 20250408_ZFTwXePX8MU_I Found A Solution To Britain's Immigration Problem.en-orig.vtt",
+      "source_path": "20250408_ZFTwXePX8MU_I Found A Solution To Britain's Immigration Problem.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Pw8e2goShNI already represented by 20250409_Pw8e2goShNI_Slopulism： 5 Tricks Populists Use To Manipulate Followers.en-orig.vtt",
+      "source_path": "20250409_Pw8e2goShNI_Slopulism： 5 Tricks Populists Use To Manipulate Followers.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QacLmvThNFk already represented by 20250422_QacLmvThNFk_What Tony Blair Isn't Telling You About Digital ID.en-orig.vtt",
+      "source_path": "20250422_QacLmvThNFk_What Tony Blair Isn't Telling You About Digital ID.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 4IbpK6p8Yy4 already represented by 20250429_4IbpK6p8Yy4_What Thomas Carlyle Can Teach Us About SOCIETY Today.en-orig.vtt",
+      "source_path": "20250429_4IbpK6p8Yy4_What Thomas Carlyle Can Teach Us About SOCIETY Today.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yK6W6zqTj7k already represented by 20250430_yK6W6zqTj7k_How Julius Evola Can Help You Face Modernity.en-orig.vtt",
+      "source_path": "20250430_yK6W6zqTj7k_How Julius Evola Can Help You Face Modernity.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video AFH2FhMot1k already represented by 20250506_AFH2FhMot1k_33 Life-Changing Happiness Hacks Every Person Needs.en-orig.vtt",
+      "source_path": "20250506_AFH2FhMot1k_33 Life-Changing Happiness Hacks Every Person Needs.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video GjwAmA9np7c already represented by 20250507_GjwAmA9np7c_How to Culture Hack： The Secrets of Top-Down Dream Programming.en-orig.vtt",
+      "source_path": "20250507_GjwAmA9np7c_How to Culture Hack： The Secrets of Top-Down Dream Programming.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ZtUM8xDXExE already represented by 20250508_ZtUM8xDXExE_What Happens When China Automates EVERYTHING in 2025？.en-orig.vtt",
+      "source_path": "20250508_ZtUM8xDXExE_What Happens When China Automates EVERYTHING in 2025？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 7dtD3ql9b8g already represented by 20250514_7dtD3ql9b8g_Why Hip Hop Suddenly Took Over Rock Music.en-orig.vtt",
+      "source_path": "20250514_7dtD3ql9b8g_Why Hip Hop Suddenly Took Over Rock Music.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video W8u7mpaOUBA already represented by 20250515_W8u7mpaOUBA_Struggling With Meditation？ Try This Fun Breathing Method!.en-orig.vtt",
+      "source_path": "20250515_W8u7mpaOUBA_Struggling With Meditation？ Try This Fun Breathing Method!.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video GLBPSb_csRA already represented by 20250519_GLBPSb_csRA_Andre Sigfried, The Character of Peoples (1952) - FULL AUDIOBOOK.en-orig.vtt",
+      "source_path": "20250519_GLBPSb_csRA_Andre Sigfried, The Character of Peoples (1952) - FULL AUDIOBOOK.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video qPgingyuheg already represented by 20250521_qPgingyuheg_The DARK TRUTH About Spielberg's Movies Revealed.en-orig.vtt",
+      "source_path": "20250521_qPgingyuheg_The DARK TRUTH About Spielberg's Movies Revealed.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video zfgBszY-tdE already represented by 20250528_zfgBszY-tdE_I Investigated The BIGGEST Lies About Princess Leia in Star Wars.en-orig.vtt",
+      "source_path": "20250528_zfgBszY-tdE_I Investigated The BIGGEST Lies About Princess Leia in Star Wars.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video vRcXC9tMqVI already represented by 20250529_vRcXC9tMqVI_Is Popular Music REALLY Organic or Just a Marketing Ploy？.en-orig.vtt",
+      "source_path": "20250529_vRcXC9tMqVI_Is Popular Music REALLY Organic or Just a Marketing Ploy？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video oADHdNwrp3c already represented by 20250602_oADHdNwrp3c_What James Lindsay Gets WRONG About Elite Theory： A 30-Minute EXPOSÉ.en-orig.vtt",
+      "source_path": "20250602_oADHdNwrp3c_What James Lindsay Gets WRONG About Elite Theory： A 30-Minute EXPOSÉ.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 5jwLSQaRP60 already represented by 20250604_5jwLSQaRP60_Did a SECRET Agency Really Control the Civil Rights Revolution？.en-orig.vtt",
+      "source_path": "20250604_5jwLSQaRP60_Did a SECRET Agency Really Control the Civil Rights Revolution？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video C16vd7xt_bk already represented by 20250605_C16vd7xt_bk_Cyclical History's 10 BIGGEST Lessons for a Better Future.en-orig.vtt",
+      "source_path": "20250605_C16vd7xt_bk_Cyclical History's 10 BIGGEST Lessons for a Better Future.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9lBRW2QAhuM already represented by 20250609_9lBRW2QAhuM_What Milton Friedman Could Teach Elon Musk About the Failure of DOGE.en-orig.vtt",
+      "source_path": "20250609_9lBRW2QAhuM_What Milton Friedman Could Teach Elon Musk About the Failure of DOGE.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video KNFSB1-9mW8 already represented by 20250624_KNFSB1-9mW8_Iran vs. Israel, Trump’s Ceasefire： WTF Is Going On？.en-orig.vtt",
+      "source_path": "20250624_KNFSB1-9mW8_Iran vs. Israel, Trump’s Ceasefire： WTF Is Going On？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video BawHKpsWO-k already represented by 20250701_BawHKpsWO-k_What Can the Godfather of Elite Theory Teach Us About The Mafia？.en-orig.vtt",
+      "source_path": "20250701_BawHKpsWO-k_What Can the Godfather of Elite Theory Teach Us About The Mafia？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 5bfRJ6vUFFY already represented by 20250717_5bfRJ6vUFFY_In Defence of Folio Society Books.en-orig.vtt",
+      "source_path": "20250717_5bfRJ6vUFFY_In Defence of Folio Society Books.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ucOy5d03VuY already represented by 20250727_ucOy5d03VuY_Joseph Stalin： The Complex Power Structure of the USSR.en-orig.vtt",
+      "source_path": "20250727_ucOy5d03VuY_Joseph Stalin： The Complex Power Structure of the USSR.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 5RJtQF-P850 already represented by 20250730_5RJtQF-P850_Why James Lindsay LOSES IT Over Carl Schmitt.en-orig.vtt",
+      "source_path": "20250730_5RJtQF-P850_Why James Lindsay LOSES IT Over Carl Schmitt.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video PVWun9jfSac already represented by 20250731_PVWun9jfSac_What If Everything You Know About Stalin is a Lie？.en-orig.vtt",
+      "source_path": "20250731_PVWun9jfSac_What If Everything You Know About Stalin is a Lie？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video K30IJQJonf8 already represented by 20250805_K30IJQJonf8_The Book That Explains Why Britain Just Gave Away the Empire.en-orig.vtt",
+      "source_path": "20250805_K30IJQJonf8_The Book That Explains Why Britain Just Gave Away the Empire.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video niEp25WIHgM already represented by 20250812_niEp25WIHgM_Did Stalin Really Kill 20 Million People？.en-orig.vtt",
+      "source_path": "20250812_niEp25WIHgM_Did Stalin Really Kill 20 Million People？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Unfv1dkPn1k already represented by 20250813_Unfv1dkPn1k_How MI6 and the CIA Tried to Destroy Arnold Toynbee's Reputation.en-orig.vtt",
+      "source_path": "20250813_Unfv1dkPn1k_How MI6 and the CIA Tried to Destroy Arnold Toynbee's Reputation.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 415buxj4F7A already represented by 20250814_415buxj4F7A_Top Cigar Tips Every Beginner Needs!.en-orig.vtt",
+      "source_path": "20250814_415buxj4F7A_Top Cigar Tips Every Beginner Needs!.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0E-vVjS-V3Q already represented by 20250821_0E-vVjS-V3Q_Tony Blair REJECTS Ideology for REALISM.en-orig.vtt",
+      "source_path": "20250821_0E-vVjS-V3Q_Tony Blair REJECTS Ideology for REALISM.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video a0Aa4rQ9wzI already represented by 20250826_a0Aa4rQ9wzI_Capitalism Causes Immigration and Feminism.en-orig.vtt",
+      "source_path": "20250826_a0Aa4rQ9wzI_Capitalism Causes Immigration and Feminism.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video OC-lMf-x5Ng already represented by 20250901_OC-lMf-x5Ng_Carl Benjamin vs. James Linday Analysed.en-orig.vtt",
+      "source_path": "20250901_OC-lMf-x5Ng_Carl Benjamin vs. James Linday Analysed.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Tbs77T9EeIU already represented by 20250902_Tbs77T9EeIU_Why I'm Against Going to Protests.en-orig.vtt",
+      "source_path": "20250902_Tbs77T9EeIU_Why I'm Against Going to Protests.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video EyFC-TtP5hA already represented by 20250908_EyFC-TtP5hA_Ten Recent British Leaders Worse Than Tony Blair.en-orig.vtt",
+      "source_path": "20250908_EyFC-TtP5hA_Ten Recent British Leaders Worse Than Tony Blair.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video VMr71-p6maQ already represented by 20250910_VMr71-p6maQ_Did Tony Blair Begin The Downfall Of Britain？.en-orig.vtt",
+      "source_path": "20250910_VMr71-p6maQ_Did Tony Blair Begin The Downfall Of Britain？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video VtUxcOSi9us already represented by 20250917_VtUxcOSi9us_Why Did the Left Change Their Mind on Immigration？.en-orig.vtt",
+      "source_path": "20250917_VtUxcOSi9us_Why Did the Left Change Their Mind on Immigration？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video WIQfLQ0FqhQ already represented by 20250923_WIQfLQ0FqhQ_Why Is Keir Starmer Such a Weak Leader？.en-orig.vtt",
+      "source_path": "20250923_WIQfLQ0FqhQ_Why Is Keir Starmer Such a Weak Leader？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video GZ_v1YFLXA8 already represented by 20250925_GZ_v1YFLXA8_What If Politicians Were Rated Like Football Players.en-orig.vtt",
+      "source_path": "20250925_GZ_v1YFLXA8_What If Politicians Were Rated Like Football Players.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jVDSJn6Szps already represented by 20250929_jVDSJn6Szps_Exposing the Vampiric Nature of the Populist Playbook.en-orig.vtt",
+      "source_path": "20250929_jVDSJn6Szps_Exposing the Vampiric Nature of the Populist Playbook.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video R1G595FXbKA already represented by 20251001_R1G595FXbKA_The Real Reason Labour Accepted Digital ID Now.en-orig.vtt",
+      "source_path": "20251001_R1G595FXbKA_The Real Reason Labour Accepted Digital ID Now.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Y-bBTXeC5xQ already represented by 20251002_Y-bBTXeC5xQ_Antifa and BLM were Counter Gangs Backed by Power.en-orig.vtt",
+      "source_path": "20251002_Y-bBTXeC5xQ_Antifa and BLM were Counter Gangs Backed by Power.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video CI1SRfMItYA already represented by 20251006_CI1SRfMItYA_How Tony Blair Changed Donald Trump's Mind on Gaza.en-orig.vtt",
+      "source_path": "20251006_CI1SRfMItYA_How Tony Blair Changed Donald Trump's Mind on Gaza.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 1657T-XqKi4 already represented by 20251007_1657T-XqKi4_Capitalism Drives Mass Immigration： Your Questions Answered.en-orig.vtt",
+      "source_path": "20251007_1657T-XqKi4_Capitalism Drives Mass Immigration： Your Questions Answered.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Cbk-qhWZpyU already represented by 20251013_Cbk-qhWZpyU_Neema Parvini Versus Right-Wing Ideas #1： Ethno-Narcissism.en-orig.vtt",
+      "source_path": "20251013_Cbk-qhWZpyU_Neema Parvini Versus Right-Wing Ideas #1： Ethno-Narcissism.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video uq5W0xwZYOE already represented by 20251014_uq5W0xwZYOE_Neema Parvini Versus Right-Wing Ideas #2： Racial Superiority.en-orig.vtt",
+      "source_path": "20251014_uq5W0xwZYOE_Neema Parvini Versus Right-Wing Ideas #2： Racial Superiority.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video rgQMggZKVzo already represented by 20251015_rgQMggZKVzo_Neema Parvini Versus Right-Wing Ideas #3： Nationalism.en-orig.vtt",
+      "source_path": "20251015_rgQMggZKVzo_Neema Parvini Versus Right-Wing Ideas #3： Nationalism.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QCPwkAkOug8 already represented by 20251016_QCPwkAkOug8_Neema Parvini Versus Right-Wing Ideas #4： Technophobia.en-orig.vtt",
+      "source_path": "20251016_QCPwkAkOug8_Neema Parvini Versus Right-Wing Ideas #4： Technophobia.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video PALJL7hohg8 already represented by 20251020_PALJL7hohg8_Neema Parvini Versus Right-Wing Ideas #5： The Free Market.en-orig.vtt",
+      "source_path": "20251020_PALJL7hohg8_Neema Parvini Versus Right-Wing Ideas #5： The Free Market.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video o8FnvsM0YYY already represented by 20251021_o8FnvsM0YYY_Neema Parvini Versus Right-Wing Ideas #6： The Declining Birth Rate.en-orig.vtt",
+      "source_path": "20251021_o8FnvsM0YYY_Neema Parvini Versus Right-Wing Ideas #6： The Declining Birth Rate.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video b_tNh2qUydM already represented by 20251022_b_tNh2qUydM_Neema Parvini Versus Right-Wing Ideas #7： The Bourgeois Family as the Highest Good.en-orig.vtt",
+      "source_path": "20251022_b_tNh2qUydM_Neema Parvini Versus Right-Wing Ideas #7： The Bourgeois Family as the Highest Good.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video cPjA4V-DGf4 already represented by 20251023_cPjA4V-DGf4_Neema Parvini Versus Right-Wing Ideas #8： Low IQ Bigotry.en-orig.vtt",
+      "source_path": "20251023_cPjA4V-DGf4_Neema Parvini Versus Right-Wing Ideas #8： Low IQ Bigotry.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video XtmpNVN2ckY already represented by 20251025_XtmpNVN2ckY_Applied Elite Theory vs Populist Delusion： What Changed？.en-orig.vtt",
+      "source_path": "20251025_XtmpNVN2ckY_Applied Elite Theory vs Populist Delusion： What Changed？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jxjCa-m0IsQ already represented by 20251103_jxjCa-m0IsQ_Neoliberalism's War on Western Production.en-orig.vtt",
+      "source_path": "20251103_jxjCa-m0IsQ_Neoliberalism's War on Western Production.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video ws9Q4v-mFtE already represented by 20251105_ws9Q4v-mFtE_The Ideology Trap： Why Revolution Never Happens.en-orig.vtt",
+      "source_path": "20251105_ws9Q4v-mFtE_The Ideology Trap： Why Revolution Never Happens.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video tcvsL79MAkk already represented by 20251106_tcvsL79MAkk_Stalin's Economic Miracle ｜ The Story Nobody Tells.en-orig.vtt",
+      "source_path": "20251106_tcvsL79MAkk_Stalin's Economic Miracle ｜ The Story Nobody Tells.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video aASvR_7TSN4 already represented by 20251110_aASvR_7TSN4_How Trump's Return Killed The Intellectual Dissident Right.en-orig.vtt",
+      "source_path": "20251110_aASvR_7TSN4_How Trump's Return Killed The Intellectual Dissident Right.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video cbAKxR2nRpI already represented by 20251113_cbAKxR2nRpI_Why I Left The Dissident Right For The Sensible Centre Left.en-orig.vtt",
+      "source_path": "20251113_cbAKxR2nRpI_Why I Left The Dissident Right For The Sensible Centre Left.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video mNdqNEZvH7I already represented by 20251117_mNdqNEZvH7I_Tucker Carlson's 10 BRUTAL Points That DESTROY Ben Shapiro and Mark Levin.en-orig.vtt",
+      "source_path": "20251117_mNdqNEZvH7I_Tucker Carlson's 10 BRUTAL Points That DESTROY Ben Shapiro and Mark Levin.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video _E0hKwLLz4I already represented by 20251120__E0hKwLLz4I_The Cold War's Biggest Lie？.en-orig.vtt",
+      "source_path": "20251120__E0hKwLLz4I_The Cold War's Biggest Lie？.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video V2cGLBo5cCQ already represented by 20251201_V2cGLBo5cCQ_The Only Julius Evola Reading Guide You'll Ever Need.en-orig.vtt",
+      "source_path": "20251201_V2cGLBo5cCQ_The Only Julius Evola Reading Guide You'll Ever Need.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9Od0xJi4R4A already represented by 20251203_9Od0xJi4R4A_Movements Don't Fail, They Get Hijacked： Here's Why.en-orig.vtt",
+      "source_path": "20251203_9Od0xJi4R4A_Movements Don't Fail, They Get Hijacked： Here's Why.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video EgFoJo7fClg already represented by 20251204_EgFoJo7fClg_ContraPoints Predicted the Left Can't Win Debates and She Was Right.en-orig.vtt",
+      "source_path": "20251204_EgFoJo7fClg_ContraPoints Predicted the Left Can't Win Debates and She Was Right.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video FxyuzCI2wJc already represented by 20251204_FxyuzCI2wJc_Thomas Carlyle： The Radical Conservative You Need to Read.en-orig.vtt",
+      "source_path": "20251204_FxyuzCI2wJc_Thomas Carlyle： The Radical Conservative You Need to Read.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Vtdx07YxCWg already represented by 20251228_Vtdx07YxCWg_Marco Pierre White and the Solar Virtues.en-orig.vtt",
+      "source_path": "20251228_Vtdx07YxCWg_Marco Pierre White and the Solar Virtues.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 3XD9jNYKE0M already represented by 20260120_3XD9jNYKE0M_FAQ： Pro-Wrestling Lingo for Political Analysis -- If You Don't Understand a Term I Use WATCH THIS.en-orig.vtt",
+      "source_path": "20260120_3XD9jNYKE0M_FAQ： Pro-Wrestling Lingo for Political Analysis -- If You Don't Understand a Term I Use WATCH THIS.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video XyXxAYFLPKY already represented by 20260126_XyXxAYFLPKY_The Dollar COLLAPSE Has Already Started ｜ What Happens Next.en-orig.vtt",
+      "source_path": "20260126_XyXxAYFLPKY_The Dollar COLLAPSE Has Already Started ｜ What Happens Next.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video w1tm6Q3lvgU already represented by 20260330_w1tm6Q3lvgU_Tony Blair JUST EXPOSED His True Allegiances Over Iran War.en-orig.vtt",
+      "source_path": "20260330_w1tm6Q3lvgU_Tony Blair JUST EXPOSED His True Allegiances Over Iran War.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video _3ZrEFNBbVI already represented by 20260402__3ZrEFNBbVI_The Rightoid Illusion Exposed ｜ MAGA, Reform UK, GOP—All the Same Trap.en-orig.vtt",
+      "source_path": "20260402__3ZrEFNBbVI_The Rightoid Illusion Exposed ｜ MAGA, Reform UK, GOP—All the Same Trap.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video MhsX8SZicA8 already represented by 20260424_MhsX8SZicA8_You're Angry at the Wrong Enemy： Rightoids and Leftoids DEMOLISHED.en-orig.vtt",
+      "source_path": "20260424_MhsX8SZicA8_You're Angry at the Wrong Enemy： Rightoids and Leftoids DEMOLISHED.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video gi8Y05bfJEU already represented by 20260528_gi8Y05bfJEU_Blair Turns on Starmer ｜ Dark Lord Watch.en-orig.vtt",
+      "source_path": "20260528_gi8Y05bfJEU_Blair Turns on Starmer ｜ Dark Lord Watch.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video cfKAwsnLGN8 already represented by 20260601_cfKAwsnLGN8_Leaving X： My Honest Reasons.en-orig.vtt",
+      "source_path": "20260601_cfKAwsnLGN8_Leaving X： My Honest Reasons.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video oeI_V-hnwFc already represented by 20260617_oeI_V-hnwFc_Economics Professors Won't Teach You This.en-orig.vtt",
+      "source_path": "20260617_oeI_V-hnwFc_Economics Professors Won't Teach You This.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video a8zbAYh6B0M already represented by 20260618_a8zbAYh6B0M_The Libertarian Consensus Is Collapsing ｜ Here's Why.en-orig.vtt",
+      "source_path": "20260618_a8zbAYh6B0M_The Libertarian Consensus Is Collapsing ｜ Here's Why.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yutSASVZ3-4 already represented by 20260622_yutSASVZ3-4_The Collapse of Western Civilisation ｜ Oswald Spengler.en-orig.vtt",
+      "source_path": "20260622_yutSASVZ3-4_The Collapse of Western Civilisation ｜ Oswald Spengler.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video hoWb9Jh2VKQ already represented by 20260623_hoWb9Jh2VKQ_We Are Ruled By Liars ｜ Thomas Carlyle.en-orig.vtt",
+      "source_path": "20260623_hoWb9Jh2VKQ_We Are Ruled By Liars ｜ Thomas Carlyle.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QOwwYJQEio8 already represented by 20260624_QOwwYJQEio8_Revolt Against the Modern World ｜ Julius Evola.en-orig.vtt",
+      "source_path": "20260624_QOwwYJQEio8_Revolt Against the Modern World ｜ Julius Evola.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video bu4Qje6A3-E already represented by 20260625_bu4Qje6A3-E_Why Civilizations Rise and Fall ｜ Arnold Toynbee.en-orig.vtt",
+      "source_path": "20260625_bu4Qje6A3-E_Why Civilizations Rise and Fall ｜ Arnold Toynbee.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 0tjRrWWQGoc already represented by 20260629_0tjRrWWQGoc_Organized Minority vs Disorganized Mass ｜ Gaetano Mosca.en-orig.vtt",
+      "source_path": "20260629_0tjRrWWQGoc_Organized Minority vs Disorganized Mass ｜ Gaetano Mosca.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video kDTdYQ2mQfc already represented by 20260630_kDTdYQ2mQfc_Blocked Circulation Destroys Civilizations ｜ Vilfredo Pareto.en-orig.vtt",
+      "source_path": "20260630_kDTdYQ2mQfc_Blocked Circulation Destroys Civilizations ｜ Vilfredo Pareto.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -glWDhEyw14 already represented by 20260701_-glWDhEyw14_The Iron Law of Oligarchy ｜ Robert Michels.en-orig.vtt",
+      "source_path": "20260701_-glWDhEyw14_The Iron Law of Oligarchy ｜ Robert Michels.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yTDl1HRsVNg already represented by 20260702_yTDl1HRsVNg_Democracy is Constant Group Competition ｜ Carl Schmitt.en-orig.vtt",
+      "source_path": "20260702_yTDl1HRsVNg_Democracy is Constant Group Competition ｜ Carl Schmitt.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video thvIUsegPQw already represented by 20260706_thvIUsegPQw_Predicting Liberal Totalitarianism ｜ Maurice Cowling.en-orig.vtt",
+      "source_path": "20260706_thvIUsegPQw_Predicting Liberal Totalitarianism ｜ Maurice Cowling.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video zHlXPLyDZfg already represented by 20260707_zHlXPLyDZfg_Empirical Reality vs. Political Fantasy ｜ Thomas Sowell.en-orig.vtt",
+      "source_path": "20260707_zHlXPLyDZfg_Empirical Reality vs. Political Fantasy ｜ Thomas Sowell.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video QU8dQWHxDnk already represented by 20260708_QU8dQWHxDnk_The Failure of Liberal Dreams ｜ John Gray.en-orig.vtt",
+      "source_path": "20260708_QU8dQWHxDnk_The Failure of Liberal Dreams ｜ John Gray.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video dAHEACDgzkw already represented by 20260709_dAHEACDgzkw_They Destroyed Family and Morality ｜ Peter Hitchens.en-orig.vtt",
+      "source_path": "20260709_dAHEACDgzkw_They Destroyed Family and Morality ｜ Peter Hitchens.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video it3GULzrVzM already represented by 20260713_it3GULzrVzM_The Power and Madness of Crowds ｜ Gustave Le Bon.en-orig.vtt",
+      "source_path": "20260713_it3GULzrVzM_The Power and Madness of Crowds ｜ Gustave Le Bon.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -6_ATKY5GDc already represented by 20260715_-6_ATKY5GDc_Engineering Consent in Democracy ｜ Edward Bernays.en-orig.vtt",
+      "source_path": "20260715_-6_ATKY5GDc_Engineering Consent in Democracy ｜ Edward Bernays.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video va4DGbO-aI0 already represented by 20260716_va4DGbO-aI0_You're Trapped in The Matrix ｜ Louis Althusser.en-orig.vtt",
+      "source_path": "20260716_va4DGbO-aI0_You're Trapped in The Matrix ｜ Louis Althusser.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video e2kwQDe2GVo already represented by 20260720_e2kwQDe2GVo_Myth, Violence and Revolution ｜ Georges Sorel.en-orig.vtt",
+      "source_path": "20260720_e2kwQDe2GVo_Myth, Violence and Revolution ｜ Georges Sorel.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video a9x3r7Mt0bM already represented by 20260721_a9x3r7Mt0bM_The Limits of Rational Planning ｜ Michael Oakeshott.en-orig.vtt",
+      "source_path": "20260721_a9x3r7Mt0bM_The Limits of Rational Planning ｜ Michael Oakeshott.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video SmdtDfIjvOQ already represented by 20260722_SmdtDfIjvOQ_Cognitive Dissonance Is Everywhere ｜ Daniel Kahneman.en-orig.vtt",
+      "source_path": "20260722_SmdtDfIjvOQ_Cognitive Dissonance Is Everywhere ｜ Daniel Kahneman.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Px7_OL5WLCw already represented by 20260723_Px7_OL5WLCw_The Psychology of Political Tribalism ｜ Jonathan Haidt.en-orig.vtt",
+      "source_path": "20260723_Px7_OL5WLCw_The Psychology of Political Tribalism ｜ Jonathan Haidt.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video aXUoodduwcs already represented by 20260806_aXUoodduwcs_Why Has Culture Stagnated since 1999？ ｜ Fredric Jameson.en-orig.vtt",
+      "source_path": "20260806_aXUoodduwcs_Why Has Culture Stagnated since 1999？ ｜ Fredric Jameson.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video RXBIhzPBsHo already represented by 20260810_RXBIhzPBsHo_Why Larry Fink Has More Power than Elon Musk ｜ James Burnham.en-orig.vtt",
+      "source_path": "20260810_RXBIhzPBsHo_Why Larry Fink Has More Power than Elon Musk ｜ James Burnham.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -nT35EYfsJY already represented by 20260811_-nT35EYfsJY_Humans Have Built a Technological Prison ｜ Jacques Ellul.en-orig.vtt",
+      "source_path": "20260811_-nT35EYfsJY_Humans Have Built a Technological Prison ｜ Jacques Ellul.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video feo2znBy8Zk already represented by 20260812_feo2znBy8Zk_Why Does Every Goverment Seem to Hate Us？ ｜ Samuel T. Francis.en-orig.vtt",
+      "source_path": "20260812_feo2znBy8Zk_Why Does Every Goverment Seem to Hate Us？ ｜ Samuel T. Francis.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video BhsBlVVvoS8 already represented by 20260813_BhsBlVVvoS8_Your Hobbies are Surrogate Activities ｜ Ted Kaczynski.en-orig.vtt",
+      "source_path": "20260813_BhsBlVVvoS8_Your Hobbies are Surrogate Activities ｜ Ted Kaczynski.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video idJBuqZ9F3c already represented by 20260817_idJBuqZ9F3c_Consent Is A Myth ｜ Robert Filmer.en-orig.vtt",
+      "source_path": "20260817_idJBuqZ9F3c_Consent Is A Myth ｜ Robert Filmer.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video tSQLIKUbGvY already represented by 20260825_tSQLIKUbGvY_America's Hidden War Against Britain (1917–1956) ｜ John Biggs-Davison.en-orig.vtt",
+      "source_path": "20260825_tSQLIKUbGvY_America's Hidden War Against Britain (1917–1956) ｜ John Biggs-Davison.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video N2TAEs5FuRk already represented by 20260826_N2TAEs5FuRk_Churchill is the Worst Traitor in British History ｜ Major General Richard Hilton.en-orig.vtt",
+      "source_path": "20260826_N2TAEs5FuRk_Churchill is the Worst Traitor in British History ｜ Major General Richard Hilton.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video TJbc9BvTDC4 already represented by 20260827_TJbc9BvTDC4_Britain Lost World War 2 ｜ Correlli Barnett.en-orig.vtt",
+      "source_path": "20260827_TJbc9BvTDC4_Britain Lost World War 2 ｜ Correlli Barnett.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video yER1_9fd4Hg already represented by 20260831_yER1_9fd4Hg_Liberalism is a Solvent of Truth ｜ Juan Donoso Cortés.en-orig.vtt",
+      "source_path": "20260831_yER1_9fd4Hg_Liberalism is a Solvent of Truth ｜ Juan Donoso Cortés.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video PHuwM0wmxSg already represented by 20260901_PHuwM0wmxSg_The Mass Man Yearns Only for Mediocre Slop ｜ José Ortega y Gasset.en-orig.vtt",
+      "source_path": "20260901_PHuwM0wmxSg_The Mass Man Yearns Only for Mediocre Slop ｜ José Ortega y Gasset.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video pWSEFJfx57U already represented by 20260902_pWSEFJfx57U_Jordan Peterson's Liberalism Has Become the Problem ｜ Nicolás Gómez Dávila.en-orig.vtt",
+      "source_path": "20260902_pWSEFJfx57U_Jordan Peterson's Liberalism Has Become the Problem ｜ Nicolás Gómez Dávila.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video geTlW_9fzeg already represented by 20260903_geTlW_9fzeg_The Liberal Is Always an Abject Coward! ｜ Mao Zedong.en-orig.vtt",
+      "source_path": "20260903_geTlW_9fzeg_The Liberal Is Always an Abject Coward! ｜ Mao Zedong.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video PI5DuEOPaZ0 already represented by 20260910_PI5DuEOPaZ0_Why You Are Losing the Culture War ｜ Saul Alinsky.en-orig.vtt",
+      "source_path": "20260910_PI5DuEOPaZ0_Why You Are Losing the Culture War ｜ Saul Alinsky.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video i288Z70Rk2M already represented by 20260914_i288Z70Rk2M_What If Your Favourite Influencers Are Controlled？ ｜ Frank Kitson.en-orig.vtt",
+      "source_path": "20260914_i288Z70Rk2M_What If Your Favourite Influencers Are Controlled？ ｜ Frank Kitson.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video NFT13R2xXAw already represented by 20260915_NFT13R2xXAw_How Authority Uses Your Rebellion Against You ｜ Stephen Greenblatt.en-orig.vtt",
+      "source_path": "20260915_NFT13R2xXAw_How Authority Uses Your Rebellion Against You ｜ Stephen Greenblatt.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video TE_qJGN6Q4g already represented by 20260916_TE_qJGN6Q4g_The Conquest of Cool： Why True Nonconformity is Dead ｜ Thomas Frank.en-orig.vtt",
+      "source_path": "20260916_TE_qJGN6Q4g_The Conquest of Cool： Why True Nonconformity is Dead ｜ Thomas Frank.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 50Xpis5sjPE already represented by 20260917_50Xpis5sjPE_Unlimited Power! Total Spectrum Dominance ｜ Tony Blair.en-orig.vtt",
+      "source_path": "20260917_50Xpis5sjPE_Unlimited Power! Total Spectrum Dominance ｜ Tony Blair.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Zw46V8Kg_OI already represented by 20260921_Zw46V8Kg_OI_Why Modern Therapy is a Religion (And It's Dangerous) ｜ Philip Rieff.en-orig.vtt",
+      "source_path": "20260921_Zw46V8Kg_OI_Why Modern Therapy is a Religion (And It's Dangerous) ｜ Philip Rieff.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Hc0Tt2fVTL0 already represented by 20260922_Hc0Tt2fVTL0_Biopower： The State’s Hidden Grip on Your Life ｜ Michel Foucault.en-orig.vtt",
+      "source_path": "20260922_Hc0Tt2fVTL0_Biopower： The State’s Hidden Grip on Your Life ｜ Michel Foucault.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 9yOTi6PknR8 already represented by 20260923_9yOTi6PknR8_Why is Modern Society So Narcissistic？ ｜ Christopher Lasch.en-orig.vtt",
+      "source_path": "20260923_9yOTi6PknR8_Why is Modern Society So Narcissistic？ ｜ Christopher Lasch.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Zo21ZaNytLM already represented by 20260923_Zo21ZaNytLM_My New Schedule： Everything You Need to Know.en-orig.vtt",
+      "source_path": "20260923_Zo21ZaNytLM_My New Schedule： Everything You Need to Know.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video j8Yp-E77JBc already represented by 20260924_j8Yp-E77JBc_The Dark Reality of the Therapeutic Grid ｜ Paul Gottfried.en-orig.vtt",
+      "source_path": "20260924_j8Yp-E77JBc_The Dark Reality of the Therapeutic Grid ｜ Paul Gottfried.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video jIuTeFlCOYE already represented by 20260928_jIuTeFlCOYE_Why You Don't Own Anything (and Think You're Happy) ｜ Hillaire Belloc.en-orig.vtt",
+      "source_path": "20260928_jIuTeFlCOYE_Why You Don't Own Anything (and Think You're Happy) ｜ Hillaire Belloc.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video bJxDzgvW0Kc already represented by 20260929_bJxDzgvW0Kc_Can We Return to a Human-Scaled Economy？ ｜ Arthur Penty.en-orig.vtt",
+      "source_path": "20260929_bJxDzgvW0Kc_Can We Return to a Human-Scaled Economy？ ｜ Arthur Penty.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video knBWaHKZmQw already represented by 20260930_knBWaHKZmQw_Modern Life is Destroying Us, So What Can We Do？ ｜ Wilhelm Röpke.en-orig.vtt",
+      "source_path": "20260930_knBWaHKZmQw_Modern Life is Destroying Us, So What Can We Do？ ｜ Wilhelm Röpke.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video xR6qT6xG898 already represented by 20261001_xR6qT6xG898_Why You Feel Trapped in Modern Society ｜ Erich Fromm.en-orig.vtt",
+      "source_path": "20261001_xR6qT6xG898_Why You Feel Trapped in Modern Society ｜ Erich Fromm.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video eIJlSdwLjzY already represented by 20261007_eIJlSdwLjzY_The Future is Cancelled ｜ Mark Fisher.en-orig.vtt",
+      "source_path": "20261007_eIJlSdwLjzY_The Future is Cancelled ｜ Mark Fisher.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video xSUqEmBipL4 already represented by 20261008_xSUqEmBipL4_Why Consumerism Destroyed the Left ｜ Jean-Claude Michéa.en-orig.vtt",
+      "source_path": "20261008_xSUqEmBipL4_Why Consumerism Destroyed the Left ｜ Jean-Claude Michéa.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video hVC1B88wR2s already represented by 20261012_hVC1B88wR2s_Why Media Theory Is The Only Way To Understand Today ｜ Marshall McLuhan.en-orig.vtt",
+      "source_path": "20261012_hVC1B88wR2s_Why Media Theory Is The Only Way To Understand Today ｜ Marshall McLuhan.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video G8QZchGxTYE already represented by 20261013_G8QZchGxTYE_The End Of Public Discourse： How Television Destroyed Our Minds ｜ Neil Postman.en-orig.vtt",
+      "source_path": "20261013_G8QZchGxTYE_The End Of Public Discourse： How Television Destroyed Our Minds ｜ Neil Postman.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wEozfS-11WM already represented by 20261014_wEozfS-11WM_The Internet Is Making Us Stupid ｜ Nicholas Carr.en-orig.vtt",
+      "source_path": "20261014_wEozfS-11WM_The Internet Is Making Us Stupid ｜ Nicholas Carr.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video oMbmgkiIIYA already represented by 20261021_oMbmgkiIIYA_Is Your Entire Life Just a Performance？ ｜ Mark Greif.en-orig.vtt",
+      "source_path": "20261021_oMbmgkiIIYA_Is Your Entire Life Just a Performance？ ｜ Mark Greif.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video WyeKbcqEyrI already represented by 20261022_WyeKbcqEyrI_The End of the Future： Why Culture is Retro-Obsessed ｜ Simon Reynolds.en-orig.vtt",
+      "source_path": "20261022_WyeKbcqEyrI_The End of the Future： Why Culture is Retro-Obsessed ｜ Simon Reynolds.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video -lGDTG10Fys already represented by 20261026_-lGDTG10Fys_How to Build a Reality You Can’t Escape ｜ Walt Disney.en-orig.vtt",
+      "source_path": "20261026_-lGDTG10Fys_How to Build a Reality You Can’t Escape ｜ Walt Disney.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video tI1m5vQrxrE already represented by 20261027_tI1m5vQrxrE_How WWE Explains Modern Media and Politics ｜ Vince McMahon.en-orig.vtt",
+      "source_path": "20261027_tI1m5vQrxrE_How WWE Explains Modern Media and Politics ｜ Vince McMahon.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video R20o2fbx5pQ already represented by 20261028_R20o2fbx5pQ_Why Your Identity Is A Construction ｜ David Bowie.en-orig.vtt",
+      "source_path": "20261028_R20o2fbx5pQ_Why Your Identity Is A Construction ｜ David Bowie.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video 6lKrjvq8srg already represented by 20261029_6lKrjvq8srg_The Myth of Raw Talent： Why Repetition is Everything ｜ Alex Ferguson.en-orig.vtt",
+      "source_path": "20261029_6lKrjvq8srg_The Myth of Raw Talent： Why Repetition is Everything ｜ Alex Ferguson.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video NIOgg8N3wXU already represented by 20261102_NIOgg8N3wXU_What the CIA Didn't Want You to Know ｜ Frances Stonor Saunders.en-orig.vtt",
+      "source_path": "20261102_NIOgg8N3wXU_What the CIA Didn't Want You to Know ｜ Frances Stonor Saunders.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video Z9r53a1h7Ns already represented by 20261103_Z9r53a1h7Ns_The CIA Propaganda Trick That Still Shapes What You Believe ｜ Hugh Wilford.en-orig.vtt",
+      "source_path": "20261103_Z9r53a1h7Ns_The CIA Propaganda Trick That Still Shapes What You Believe ｜ Hugh Wilford.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video wl8xQGcaXus already represented by 20261104_wl8xQGcaXus_How the CIA Secretly Ran Student Groups for Decades ｜ Karen Paget.en-orig.vtt",
+      "source_path": "20261104_wl8xQGcaXus_How the CIA Secretly Ran Student Groups for Decades ｜ Karen Paget.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    },
+    {
+      "message": "video YEZLrY9aHVU already represented by 20261105_YEZLrY9aHVU_Why Did the CIA Fund Women's Groups in the Cold War？ ｜ Helen Laville.en-orig.vtt",
+      "source_path": "20261105_YEZLrY9aHVU_Why Did the CIA Fund Women's Groups in the Cold War？ ｜ Helen Laville.en.vtt",
+      "stage": "ingest",
+      "status": "variant_skipped"
+    }
+  ],
+  "interpretation_constraints": [
+    "Topic weights are model-derived descriptive weights, not probabilities of endorsement.",
+    "Lexical, topical and semantic similarity do not establish argumentative agreement or influence.",
+    "Topic labels are investigator interpretations; model topic identifiers are neutral.",
+    "Passages excluded as boilerplate are listed in passages.csv with reasons and are not modeled."
+  ],
+  "models": [
+    {
+      "converged": true,
+      "documents_unassigned": [],
+      "kind": "refit",
+      "model_id": "nmf12-2425069e-seg-1-873ab5-776199",
+      "n_iter": 178,
+      "n_topics": 12,
+      "reconstruction_err": 42.434379094857135,
+      "topics_with_no_dominant_passage": [],
+      "topics_with_no_prominent_lecture": [],
+      "unassigned_passages": 0
+    },
+    {
+      "converged": false,
+      "documents_unassigned": [],
+      "kind": "refit",
+      "model_id": "nmf20-2425069e-seg-1-873ab5-776199",
+      "n_iter": 400,
+      "n_topics": 20,
+      "reconstruction_err": 42.141481241877145,
+      "topics_with_no_dominant_passage": [],
+      "topics_with_no_prominent_lecture": [],
+      "unassigned_passages": 0
+    },
+    {
+      "converged": true,
+      "documents_unassigned": [],
+      "kind": "refit",
+      "model_id": "nmf30-2425069e-seg-1-873ab5-776199",
+      "n_iter": 196,
+      "n_topics": 30,
+      "reconstruction_err": 41.844928599142754,
+      "topics_with_no_dominant_passage": [],
+      "topics_with_no_prominent_lecture": [],
+      "unassigned_passages": 0
+    }
+  ],
+  "run_id": "2425069e-seg-1-873ab5-c9b2a5"
+}

@@ -1,0 +1,1429 @@
+{
+  "corpus": {
+    "corpus_hash": "2425069e6de8ca27f7fb42412894081768ae09ef2108461994824148074a7698",
+    "included_documents": [
+      {
+        "normalized_hash": "684f95d18208377ef42f6c245a7a08b7f5c30010d1096f65cd188dd45290bd47",
+        "video_id": "udm69DlvbnA"
+      },
+      {
+        "normalized_hash": "bb5737c5c27651f4b3822a013a44a9faa42712832d06ecef0f8067729d8944fc",
+        "video_id": "DagaYGIe9j8"
+      },
+      {
+        "normalized_hash": "12f9365933ca4efd827f11d17a392bbdc3977a1eb900b2627688cba071685e8c",
+        "video_id": "sqhgGqzPd8E"
+      },
+      {
+        "normalized_hash": "c302e2a84248626e71bfdb533276413d434f913f798ff0424fb328d459abf76a",
+        "video_id": "lozpa3q5BLE"
+      },
+      {
+        "normalized_hash": "5174e4267a8660a3306d4cb6d6f525c14fe5c85b3b61cb42a62c82988ba15dd4",
+        "video_id": "P2gnxVhTci0"
+      },
+      {
+        "normalized_hash": "afdac4d63a5699d95d98d55384afdaa4d0fd584a1d47067e9496927681cafa16",
+        "video_id": "agPvpo3Qdsk"
+      },
+      {
+        "normalized_hash": "b0a9af636c4e536ef78677e6650556a7aeb5ee2c9c3139de696b27f602cd9850",
+        "video_id": "z3oEBeSo9MA"
+      },
+      {
+        "normalized_hash": "163a02edb8c57f57e808819e9cd0e8cb27744de95da184b29c1bc663ec2c2d9d",
+        "video_id": "zIHzpB7xRE8"
+      },
+      {
+        "normalized_hash": "e253f7e4d288846b34bcb3493a607452fd2b13f781d230260f9ce407843a5cf5",
+        "video_id": "jElVTVLMknw"
+      },
+      {
+        "normalized_hash": "65b5625941760cdd70d48c7f55f26c1a5413ebb9e9cda1acbd733b147a405428",
+        "video_id": "B1_c4Dl4bAE"
+      },
+      {
+        "normalized_hash": "7b5858b8e23e3ad27ce30539ed6b7984affeeb958d37bb955f24ba4a459f716d",
+        "video_id": "zCtJt4TLglw"
+      },
+      {
+        "normalized_hash": "f5a9660b6d6446c1fdebee6c02da1ae59a79b6880b3a1354c44441ab6f1659ed",
+        "video_id": "1qATRlOvfr0"
+      },
+      {
+        "normalized_hash": "10f9bac009c42ce567f05ebbe85ee71ab6a89cc038deac7f48ba042a72693914",
+        "video_id": "G42GGKbM87Q"
+      },
+      {
+        "normalized_hash": "632a1c3481dd000b5889b33bc10f95adf6ff08d0330a2be797ba53ccd2021346",
+        "video_id": "K6OZuU5VLac"
+      },
+      {
+        "normalized_hash": "9a1a57f50154ff45ef763df2f7bf9fdb321441cc6223dc1c1a5ea98a542b3e15",
+        "video_id": "B1LsEo5JO2E"
+      },
+      {
+        "normalized_hash": "d6e3b8a7dbd5da34484dae8cca0d50978f52fadd52d8ecba27fa7155b7899ef2",
+        "video_id": "m7VsuqtrxIM"
+      },
+      {
+        "normalized_hash": "1dbd490006d706b2535bf0c7a2f50164bca8dc403439f144148f0df2c2bcf248",
+        "video_id": "CoLlIHSDHE4"
+      },
+      {
+        "normalized_hash": "30d673e50b4484d9f1fd346a97b16d9872b7c873390629ff9cae261d5e6abe73",
+        "video_id": "MPSMqzT_HPo"
+      },
+      {
+        "normalized_hash": "2eb2fd6fc8145e4d3142c7e4f2105ab1676bcfad33743c684eb3ab58b2751800",
+        "video_id": "qlGokgO3mYQ"
+      },
+      {
+        "normalized_hash": "1b31e53093998fb418934366c16728c685854a84f32328a9fc8c93419ac09ca4",
+        "video_id": "FufUVkmVtG4"
+      },
+      {
+        "normalized_hash": "82a6addf59f01023fe245ca8772e994eb3dbd87cd45bc4496a914b649cd475ab",
+        "video_id": "fLlDsNmB5kk"
+      },
+      {
+        "normalized_hash": "d59f84a07930753385657f2b87cbb1c4e935651e61a8923f30eacd9574165a18",
+        "video_id": "uHG5iVTqpIE"
+      },
+      {
+        "normalized_hash": "657fb0f100d95e554477c3770dc530a9ea0d6db0f5966cf9ca9aaa6437fb45e5",
+        "video_id": "IQJtz5XSnH0"
+      },
+      {
+        "normalized_hash": "1b20c12538f5953f50dc2eaf414300be2b9037d5df4bee81ead522ef3cd9a275",
+        "video_id": "tg_UuhHDcGI"
+      },
+      {
+        "normalized_hash": "02bd0841612a261f3b12c000973cd86696630ad26aff50468132ab8e82467b91",
+        "video_id": "JhyY0DpTlLk"
+      },
+      {
+        "normalized_hash": "2970bcdd1c058b66ce6e3b12b432ef737e070fe7684720d24f0d5f7a994b29a2",
+        "video_id": "Kj42P2_8dG0"
+      },
+      {
+        "normalized_hash": "f8b2e67ff19db1b645291a22543d62c535f4d673ec14e47edf1815842726bbcf",
+        "video_id": "vHAsnzALQJk"
+      },
+      {
+        "normalized_hash": "e87775a40495eecfa7ae319019b9b4e5f74fbbdc251d2fd62f6802398a10c3bb",
+        "video_id": "62sxYWPmCZE"
+      },
+      {
+        "normalized_hash": "214a2db46f12105dd2b58fbbd6f014f818bbac9daf26868eecb45436b239a9f9",
+        "video_id": "UPPdmgWjecY"
+      },
+      {
+        "normalized_hash": "a6e9c1b49832f4d5019244181cbeef7d87da17036d8279bfc8944bde4e215eec",
+        "video_id": "7NSkwz1rS64"
+      },
+      {
+        "normalized_hash": "dc2c6c4a6436006ddeaa77055ec2229a716b186d0a84c8b185b356ca96df6b43",
+        "video_id": "7ut37WqbXjk"
+      },
+      {
+        "normalized_hash": "9912e9f491e3c57bdb75cf16bb2be797222dcbbddc0f8d2c62e18830af00f282",
+        "video_id": "f9ACkNzt6pc"
+      },
+      {
+        "normalized_hash": "6b794ebdd2755ef40e706a7b943a5c47cb47a0bfd61658b3a02019a590e53d33",
+        "video_id": "0RCuKIcZ_mY"
+      },
+      {
+        "normalized_hash": "cfbe432eb2da7c56b7b56a45d3d24e32f09fc0fc817daf25f8b4087b27f5c639",
+        "video_id": "Y72HqpwBJ7o"
+      },
+      {
+        "normalized_hash": "877ac2e4ada823b200f87e1e3e87d028b398fccebb8931ec26f2b937201801cd",
+        "video_id": "jggCt6X1QI4"
+      },
+      {
+        "normalized_hash": "cc318d95887793def8712478e154d59ff149b555341889a123a97dc8f4ac4cfc",
+        "video_id": "iIONcSbrxbQ"
+      },
+      {
+        "normalized_hash": "868b421c4592079a47919188e8d84f14b9beebb35e9fa27a8b01b91473dccbc2",
+        "video_id": "w-UUW_Z7UD8"
+      },
+      {
+        "normalized_hash": "5fe22c18a076734c1de68d8d19f83d40d6b668875ddd563ff81110c9186d59b8",
+        "video_id": "fWDn1-dyXDg"
+      },
+      {
+        "normalized_hash": "2e2d2255ee081b142e93d024d70b02c9d805c15f54ed6652a3ed355a15dfa4aa",
+        "video_id": "nnisOz2nGFc"
+      },
+      {
+        "normalized_hash": "330adce0e09f129b8d18c09dbe8fd429520540997a5629d9fd8febfbbe2cb716",
+        "video_id": "s5Kx6-nyVkk"
+      },
+      {
+        "normalized_hash": "3a9cb81638a672b6512ac392067ce7388e5fac7f5e71fcecfe3b2e2df8d9ae7b",
+        "video_id": "MSOK1D1aPw4"
+      },
+      {
+        "normalized_hash": "2dcabb609392013fa9cbb162a569f6b3e4b004574f3605e939c67a592f935cd9",
+        "video_id": "AQBgY-kJhrQ"
+      },
+      {
+        "normalized_hash": "f6159fed64919fe9a7a8f7afd131dcdd2b009b4562317a7f44465a243bcc7696",
+        "video_id": "ZL8zVgd2lXI"
+      },
+      {
+        "normalized_hash": "814f38648f1f8e7cac356c667fa02f0be5828bb1609f1ae0d8071c7828838f38",
+        "video_id": "YHaoDU_vM0Y"
+      },
+      {
+        "normalized_hash": "7b364d09ea9e00e6203cc9913e8545a4e36529543211f91c15a99e0cd8a98078",
+        "video_id": "QPqPnWTaMrE"
+      },
+      {
+        "normalized_hash": "3cc5384ac119c84c8e824c6784138f131236990c5722ceecffd2f357b4090461",
+        "video_id": "wn4S7J9EwGk"
+      },
+      {
+        "normalized_hash": "3a2aa5528e0bba3681335af85fa33b0c3d0b2ccf466318e8bc0614958a4ee06c",
+        "video_id": "9syhXep1XWI"
+      },
+      {
+        "normalized_hash": "e2e5c2baa33abb848c3441d64103cff01c108b9f4564a6f6b2c6649e87b0fe17",
+        "video_id": "3p02V4yXK8U"
+      },
+      {
+        "normalized_hash": "ec5e8295f72439e67a23b10eecc344d1d1f3a12d20ef53aba9bc54f52daf7540",
+        "video_id": "UQvhLBhMIt8"
+      },
+      {
+        "normalized_hash": "ca563ec843f140a7fbf4371a813f9a17a03733b4108024781a3aa7640954bd4f",
+        "video_id": "pK_CgcHrgNA"
+      },
+      {
+        "normalized_hash": "73c95b8c9c41976462e8c37a8ae4aa36ac05b0180ec9b4ea3aa0e78589e8b787",
+        "video_id": "KAJrycrD6jg"
+      },
+      {
+        "normalized_hash": "ea49b2a2fb6402c971274c7047c7c43a4c32bed44151aa5926894877ee857147",
+        "video_id": "pYjm4VPtPAk"
+      },
+      {
+        "normalized_hash": "ee18e10584fffe742e96b2d2adca998a267032eef253f90c11fb9fca69e87ad0",
+        "video_id": "rK9mLSa2syM"
+      },
+      {
+        "normalized_hash": "1a722a4cf86441b7fa767448f57c829cf8fc8e2ccef9ccdbf4e8a1f6f63f1c82",
+        "video_id": "wWzwBpNIDik"
+      },
+      {
+        "normalized_hash": "e01dacda1ed8d41c0ecd2bd87ab0e396914954578a49076f4a80cc7570df9327",
+        "video_id": "vayWtWENsDw"
+      },
+      {
+        "normalized_hash": "b4861a9f3aa506b0f008539f83188287d63443e0cf628612a770a6ab9a2a2575",
+        "video_id": "SSCgYJYYOK8"
+      },
+      {
+        "normalized_hash": "0a9a77914f268082e268b3ebac5b7f7a290700f0dd3db1588d0038296b57cc74",
+        "video_id": "xfj_HeZUYJY"
+      },
+      {
+        "normalized_hash": "ddaa01394b165bf42eef56d0d451167b084f3d7e0f31f54ce31e11964591b7d1",
+        "video_id": "vlnNsLj8-LY"
+      },
+      {
+        "normalized_hash": "599ceeaae874284852062ed8f74565193e52e298885107288599495c96b01c69",
+        "video_id": "RUrNrJcSvZM"
+      },
+      {
+        "normalized_hash": "8d26e9b43d1e5830d9bf5556d89d74e64f4997b3834f596b41b01d19ed94916e",
+        "video_id": "9p51t2MHcms"
+      },
+      {
+        "normalized_hash": "90602ac776396e6c4218ace789345db69c1d98946a4da0627d035673e2cd1b1a",
+        "video_id": "RPG_xv40vKs"
+      },
+      {
+        "normalized_hash": "5faa9c0c25f1b0cf428e828921d988b3c5a121fb24891035997eb083fc677569",
+        "video_id": "yZ6cstY4bLI"
+      },
+      {
+        "normalized_hash": "64c12fec8e712f6b43ccd56197aaa3fecd89ee367edaedb8ecc4ea7a47877789",
+        "video_id": "z5zXMfm0oBE"
+      },
+      {
+        "normalized_hash": "d46acb2b76538159e41980380188d489f7844ed5588e7c15f1952ba43f48275f",
+        "video_id": "E0vdcFp1pAo"
+      },
+      {
+        "normalized_hash": "3823b2425cb568bf2881c82e29efd64d0b3884fd7cfbc66d044297a008fcd0f1",
+        "video_id": "4A6O2BzpWvo"
+      },
+      {
+        "normalized_hash": "ee6c7fbfbc2cc458f44e457263c50cb49e40c1d74a68e3d4415657efee381307",
+        "video_id": "4WnKsmpbohg"
+      },
+      {
+        "normalized_hash": "f7acbd3ee36b0da0506e97629de685c3b1a78bf31b78343881d2855c1ba86660",
+        "video_id": "p-XbPGZEv3Q"
+      },
+      {
+        "normalized_hash": "2003ef1e110cde8c51c74da505b96262f0aeb22a7a139eab9379e32057af5f2f",
+        "video_id": "LCYqjXIuiEE"
+      },
+      {
+        "normalized_hash": "ea8702c4ab3692e756509de2d1619676b25a1b7335acf683622a5ee380683e0e",
+        "video_id": "x8VCP1hgSf8"
+      },
+      {
+        "normalized_hash": "2890d134d313cee50ada3986fa806a506bee4692cbecc255feac5b9d28f1b921",
+        "video_id": "aBVzc92-Nbc"
+      },
+      {
+        "normalized_hash": "835297a98bef28d80e610bdb341257fcb862ec75ce7014e399ebf79fe5bac7e3",
+        "video_id": "mEX13GrLwqg"
+      },
+      {
+        "normalized_hash": "465a43edd08d2ea3836cfbbc11749ac878888c909865bed706cc5d51d1c05a01",
+        "video_id": "1ivZb0UHDrs"
+      },
+      {
+        "normalized_hash": "6c1844fdafdb6d8e62eed84cb3611afdbbb15aa1178ace27a5fd22d4859a30e3",
+        "video_id": "INqgKBPL1EI"
+      },
+      {
+        "normalized_hash": "c2adca9bf16e29bf2fcc0d1fe3fcd8d9d548fb534564602c9999001d0296c4eb",
+        "video_id": "VBWhKo5-llw"
+      },
+      {
+        "normalized_hash": "10b2e1eec50e9b0522edb5c4a159096aadc9011cdfa8640222319bf78644f9d3",
+        "video_id": "rZNdDkcXjAw"
+      },
+      {
+        "normalized_hash": "5cc8c791947490d7b34da7bc0c95ceb3c4df9be4e10af40b5f2d07b35124d712",
+        "video_id": "pI7EA8M95ro"
+      },
+      {
+        "normalized_hash": "a9f67b8b7345aa3e95c392ce913595c4dbce856d7dbc6a617573425491db30f3",
+        "video_id": "xQreNYUsi34"
+      },
+      {
+        "normalized_hash": "97fc20da8517446d881df8ba95108ea2dedfd925afb5af63648868e88e79aa19",
+        "video_id": "Ghe3qaktJGU"
+      },
+      {
+        "normalized_hash": "2630e9ab7fc4abc950ccfe024b5af58c22aec795f3d271e8ebd23e32bb1ea230",
+        "video_id": "sA6Q1rE7XHo"
+      },
+      {
+        "normalized_hash": "f0f400aac90f1e92330f48b2929a8be032eef62e0b08f7cd31ae9b2ad9f22b2e",
+        "video_id": "1pmpy6yMqZE"
+      },
+      {
+        "normalized_hash": "b2ab9a00a71436e1de59d83007a9b6d2e7b34ba120fb2ffbc2264eb69e9286fc",
+        "video_id": "-g77amDi2SA"
+      },
+      {
+        "normalized_hash": "2a6f24ac37ee088dd82ee7417c4b62c25e636b33947552921bedcb53ac089504",
+        "video_id": "geBHeJYqL-o"
+      },
+      {
+        "normalized_hash": "805f63d4e740a4532c856ebf032730e2652f43cb374ba080839bc698ce4d9f26",
+        "video_id": "jpFl9P8rC3o"
+      },
+      {
+        "normalized_hash": "c5953ac46fcfa3a9539f20cc5f43cdab6a323a144e50e2367f1fc56db5e3dc3e",
+        "video_id": "BM5STDnjqvw"
+      },
+      {
+        "normalized_hash": "bc36aa5e4511b20b38ca47b9096988f6a3a614be8a93bb7690b31f5990cc114a",
+        "video_id": "2f0Hqbyvsz4"
+      },
+      {
+        "normalized_hash": "929822d302a9b1b10179ddd5d2d5cd2a4e53d1ea27ecff058208865970b57844",
+        "video_id": "O-Qnk_Fv9vQ"
+      },
+      {
+        "normalized_hash": "dee6e32cb33297546b0948ed8e972414b4c30ceadb5a62e7a51fcad77b948f8c",
+        "video_id": "9k-TH6c_8qM"
+      },
+      {
+        "normalized_hash": "7f6e740a4468a8367c281e044b9e279a6168eaf8c31ab12490fe0d4642c0ead5",
+        "video_id": "6n2Bnnw-c6U"
+      },
+      {
+        "normalized_hash": "c4af3eeb69de37cdd25f1924e94e7b588cd39fc77cfca7d83bcdcd9a70fb7b71",
+        "video_id": "24FThxQYCXI"
+      },
+      {
+        "normalized_hash": "35f3ce1e7e24dd79288423c7bad79a303064bd7ce7da8fdd8785a27a3981f588",
+        "video_id": "P3mgEttLTIU"
+      },
+      {
+        "normalized_hash": "0e78cbe46f715dee30b1764e9beed2aebddd3b40768d8e47dcc73e82f779d708",
+        "video_id": "A_JK72cdJcI"
+      },
+      {
+        "normalized_hash": "c83ef4fd39ac4510ccccb45857212727aa96ee3457af8babf994136fec2f171b",
+        "video_id": "MhVaDsoGiIo"
+      },
+      {
+        "normalized_hash": "5b59c58575185f0c0e4fb5ac20ae63a6b6711a00f239005a4e74bcec8ce076c8",
+        "video_id": "TpAFKM86qvw"
+      },
+      {
+        "normalized_hash": "27f5c70664d1bdd9bbac017e5ba24bba092f25f82f037e549bd7b0ff94d779e3",
+        "video_id": "wKII7lNsVIE"
+      },
+      {
+        "normalized_hash": "2d84b2990eb80cf17538da15ac46263bb851bf436dbf9850a13f995f85e8fe41",
+        "video_id": "uSZDmwx0hQY"
+      },
+      {
+        "normalized_hash": "f45363e59811de2b699206b4e3e5718cec7c9846c67b6df88ed6fe6749ac5e9f",
+        "video_id": "LgFPl4tisg4"
+      },
+      {
+        "normalized_hash": "ece1a8f6a1785df6e8b40216e1ac8d6588798869e4faf4c92accee54f1e30ec6",
+        "video_id": "qSYlzxczAY4"
+      },
+      {
+        "normalized_hash": "cc58e067a2317736966620af2535a6d8a5c8fd7eefb5f2a6795a3102d44cbd95",
+        "video_id": "-XFGHjPDMQY"
+      },
+      {
+        "normalized_hash": "eeb8dc879cf0b5cd89593ddb6e4f2a5dea86afd29b385ab5802371c2fb41823c",
+        "video_id": "MhkL5nWm8A8"
+      },
+      {
+        "normalized_hash": "9d983a1f1b50fc4756387296ccb311c9a1d00020624c4b72861bad30f0fdcc82",
+        "video_id": "8bQXckaOArE"
+      },
+      {
+        "normalized_hash": "355db4c3f29db191a2f597f767053d5ab6bcdcc642c1cfe39c98529314cd09d3",
+        "video_id": "aLyCVGkwhB4"
+      },
+      {
+        "normalized_hash": "01fac9fbe1475f69c28deaeaf1c314f93e73f9967edf46d5ad12f57445b5e589",
+        "video_id": "CzVVJ2Wl35o"
+      },
+      {
+        "normalized_hash": "f9bee148433349a55f753ae4b36b93304eeb696ee4f89607bcb75d6d715d18af",
+        "video_id": "c3jZobYUxT4"
+      },
+      {
+        "normalized_hash": "e0b78e0e68a676dda882e3be1eaaf81c6a7a9cb4fffddb29680e06e57f4d7767",
+        "video_id": "DsPslSJAkak"
+      },
+      {
+        "normalized_hash": "cb0a7ebdd4affc85150503a6f3457bf67eff8e8b6d744bc7a2a103d63cc012e1",
+        "video_id": "m3QMUK-fJBo"
+      },
+      {
+        "normalized_hash": "3fa753ea82739e85d6d5699f0af747ee621acb73ee55d8a3053dfd1b89f67b07",
+        "video_id": "0-UBd_hs0Xs"
+      },
+      {
+        "normalized_hash": "43a402ab023b958fa09814457593a7ea01f82d9ccc5537e46c56b1124f829e2e",
+        "video_id": "Op-n4vK-6Nc"
+      },
+      {
+        "normalized_hash": "f89df14093cc7dbf1748a9c45940c66b69a97abe46abc1c5a870db87fe1f6fa7",
+        "video_id": "moASAdrwvs0"
+      },
+      {
+        "normalized_hash": "2073b30c5c3322516cade0fdef0214bdb95366cc2d3b49c5c4ef5651b6e113af",
+        "video_id": "hoTcl5l9dTw"
+      },
+      {
+        "normalized_hash": "6aba31dd938059ef7576875341e27d2fc6da6899f954fe477aefc2af220bafa7",
+        "video_id": "w8BAAV93lsk"
+      },
+      {
+        "normalized_hash": "987e701fdca71208dd2ed09ff5c68a0af555ea22655cf5ec0f32eaaa3e14d9ec",
+        "video_id": "rhHT6HvFRE4"
+      },
+      {
+        "normalized_hash": "7276e39e52ee4506e152de1866717d081690a722c82eaaaa9035e6302418234d",
+        "video_id": "epKQe9JHyG8"
+      },
+      {
+        "normalized_hash": "43a7615c818496388ddcea3a4ce4b17f2026fd8d9763aa7cae459ec869b10efd",
+        "video_id": "M4c5GyFF8is"
+      },
+      {
+        "normalized_hash": "e7366e0f3c85e17f823c2797bd218452005a477dc9cc2a317270793edd8502c6",
+        "video_id": "qCkxsfCLJLo"
+      },
+      {
+        "normalized_hash": "a7b27b47e42c442e8eb19bd6d673f1996773d801949dcb27b79cdbc359ad274c",
+        "video_id": "JygtFzKHVo0"
+      },
+      {
+        "normalized_hash": "221d4195cbea6cafb8dc0266eb9bab40bc245f69de1bbb21e45446e67f550f91",
+        "video_id": "C33AdAIkNXA"
+      },
+      {
+        "normalized_hash": "7feb83e138e8c94b5e7d5f9eab3b7127a300e19a0053955a63e9fff3ed0e572e",
+        "video_id": "wvcvph-dpfE"
+      },
+      {
+        "normalized_hash": "30323815f3395009811dfe5d8039b52a68838ca41adfdf599b0160fa3c3c92d2",
+        "video_id": "kSElkFYbBDE"
+      },
+      {
+        "normalized_hash": "c212b5fa8a47a257034f239827daee59e772e2635bbc9e72b12081e3b4d62dc2",
+        "video_id": "ZtMufUG74mk"
+      },
+      {
+        "normalized_hash": "a9d3f23056f9d51d680fcf9607ee449104cc14e52b07c96e89c22963d060ee54",
+        "video_id": "ngslhUA3TAk"
+      },
+      {
+        "normalized_hash": "7b8ec9810884cb687eda8194210d457f9c2c4ebcee0e90aea3692ad32845d18e",
+        "video_id": "niiF8hCSrYQ"
+      },
+      {
+        "normalized_hash": "2f8f1c6ee5d62da0cfe3c119bb36b039b61a4f81861bdbd6b36b8d651c9b86e0",
+        "video_id": "QK32o2jqEH4"
+      },
+      {
+        "normalized_hash": "d22b069b62bfc077c0365937508ae883cd992711372af550bfe10327575f17c7",
+        "video_id": "NVaxXUyxYbI"
+      },
+      {
+        "normalized_hash": "e7a7be05f5fe04c23a4314c3484cc577da1b8b2f1286de076d1f4edded9e78af",
+        "video_id": "SGWdYT9W3m0"
+      },
+      {
+        "normalized_hash": "37ef537f8265a8bb6ecbd6aff18eea4cc037977e6fa9ff5ced41397fca193d28",
+        "video_id": "yW-jV4BFBFA"
+      },
+      {
+        "normalized_hash": "466ef76c67dd71f9108bdd3a80a31b399ec198dada507a9872bc97a3d2538f81",
+        "video_id": "QkW838zfX50"
+      },
+      {
+        "normalized_hash": "8a01e3d8432cc2c8e4ef1672e26b50f2cd20759ae2dd459e9b402a56c8499569",
+        "video_id": "ppbahHcwDro"
+      },
+      {
+        "normalized_hash": "94982d9ada2faf3582fe051e2a936ccb029129c8e5ecffb7de04a2e858e2a380",
+        "video_id": "7RQXerO8JxQ"
+      },
+      {
+        "normalized_hash": "9ba000f041ef6f35bfa34d86143fae78bff8c0d8516509ef027d551225fc72f2",
+        "video_id": "ibbuiWQjFa0"
+      },
+      {
+        "normalized_hash": "a255cf6aaa8b24498eba5446c3218afed66ae393e7e83660dc6ef83119dd95ae",
+        "video_id": "sAxVs_jJYHw"
+      },
+      {
+        "normalized_hash": "5689e2fdbaf944bc20936571bb935607a62e8b8ced6d3ba2564b374b355e1ecc",
+        "video_id": "u_-V-EY8f6A"
+      },
+      {
+        "normalized_hash": "8d8121b3f2e4bb3966afa1e3a630a5a88ed6c45094a97da701b446cb1fddb2b2",
+        "video_id": "yNbqg3iZL-k"
+      },
+      {
+        "normalized_hash": "e5d5b61e27b950194216ce6917f515c5e02866661b18788af95f2e0149a5f783",
+        "video_id": "N_njJHwFa4s"
+      },
+      {
+        "normalized_hash": "4c89ed8125e2bb4d902db9dfb75c8f2f8fc0f83a14cf3fbe77ba872e21bb37b4",
+        "video_id": "b-8TduOKs3w"
+      },
+      {
+        "normalized_hash": "566f509a690f80ae714f8a0ae2f5fa18f4b1b69e2d9c0272ba8bd6c9cee17cd8",
+        "video_id": "klwgwm5dojM"
+      },
+      {
+        "normalized_hash": "5157d7b9e66b3098e9772ad9be3127bbe4664b57a13ef9e26ac4f51466abee89",
+        "video_id": "KQbAoG3N3zk"
+      },
+      {
+        "normalized_hash": "7d013667cb53667ecd6e9982d2cc4605c8ade5b7382e8f3d2025dba20b39a3ba",
+        "video_id": "rdeHxM88g0k"
+      },
+      {
+        "normalized_hash": "29aee335bffa689d00cfc45a658eaf02ce1089d4539570df593d863e6ed72c6b",
+        "video_id": "0WwJqWRw3aY"
+      },
+      {
+        "normalized_hash": "cc591bd042519b799cae30f32114ee6c547c4e138933c1ad11ddb5ec99914983",
+        "video_id": "0diVA-7mXF0"
+      },
+      {
+        "normalized_hash": "f1d44e965274c4fafc1f47a6797dae77488ada46dcb27ab278cd55087d8331bc",
+        "video_id": "ovWagdWkNSk"
+      },
+      {
+        "normalized_hash": "8b925ccea20df6126b30cc766bc7c2a568e58735e5a3803e7316ba75ee423486",
+        "video_id": "8VqSAQa-zug"
+      },
+      {
+        "normalized_hash": "32e47a2a0f104517733bf1e0407292394a93a9596e9b3a3aa4a9875fd47668f3",
+        "video_id": "WGxKHXvmg28"
+      },
+      {
+        "normalized_hash": "03316e4f3faf0b3eb6ad2a76f91b3bda5fb288efebff21014e834add8f8a742d",
+        "video_id": "8b2vrP4f8aQ"
+      },
+      {
+        "normalized_hash": "9947f82f39d9a16a2876e28e9e4ec1fcf824b0b765eb193de07bfbf7bd33d296",
+        "video_id": "epxYj9vStJA"
+      },
+      {
+        "normalized_hash": "42b6fe04432468cdb40817e6e124beb2a26edce63b7a41d64f3ac67240e3548e",
+        "video_id": "er_IGskG22c"
+      },
+      {
+        "normalized_hash": "5dada690f8ff0db51760a98a458db26feb4424736ec995d1129fd4b0f15571a6",
+        "video_id": "Ff1s4Sq3H58"
+      },
+      {
+        "normalized_hash": "df79a8416fd6b8a6fdf2dd7364cd5b243d2309287d64143674dd071fe059cd9e",
+        "video_id": "fj41EPhgOFQ"
+      },
+      {
+        "normalized_hash": "f26fdbcf2e8ec4c982cc38caf2256e4b8dabca51fd7a5604ad7cdef1b291d132",
+        "video_id": "eYmLciSeWkw"
+      },
+      {
+        "normalized_hash": "b9da88e9e90dff759fe850b8ce9a9316250c8ac1545203aaadc0526879a32c1b",
+        "video_id": "8Wo6Tv6u4Ns"
+      },
+      {
+        "normalized_hash": "a5105c669fd5b27eccad25acc7bf61a1e948db555ffad7dd50a19e2d95cdc669",
+        "video_id": "bEQtvVmsp28"
+      },
+      {
+        "normalized_hash": "9542b42b0f6eaf8e1c18532a374ae0a70aa1a66d4e63749eacdd87afdcafc40f",
+        "video_id": "vyPXdwL8v6A"
+      },
+      {
+        "normalized_hash": "95bf5466c444a671eaf4cea2f340bf28bbe3e59623beff7a6d0a7365b1383445",
+        "video_id": "1iywv2pkMVo"
+      },
+      {
+        "normalized_hash": "3602c6e2c3e44c3cceb7c23a23f57beb40326cf449e7ce661cc48a328aea36a6",
+        "video_id": "ZQUkOOWWa5o"
+      },
+      {
+        "normalized_hash": "ef5db740272b7154788608abe11cecb8bd93bc2d5b9aced0c92211e2aee67cdb",
+        "video_id": "oE0-XEfgOVo"
+      },
+      {
+        "normalized_hash": "2021cd22332571911e2f00a08a44b77e7879465a1904301a3aae7165ebef32dc",
+        "video_id": "S-U0tNtibcc"
+      },
+      {
+        "normalized_hash": "4076cb7afa8dbb8a93b1ad8067f55895d4d1ec33a880f9a160d2b4ac84f8e225",
+        "video_id": "51_uz-BtvOg"
+      },
+      {
+        "normalized_hash": "763069e8bf3397f0a16f211b9aaa2b90066b6067d84c3a20e68cf008eb4923b4",
+        "video_id": "9kKwaMOTJjU"
+      },
+      {
+        "normalized_hash": "1d083f6fdbcfd3f8ff57675b16935de93ababc729037fcce4dcc722f3bbe9534",
+        "video_id": "aC1M_a7ycj4"
+      },
+      {
+        "normalized_hash": "6990346add138f18f838fc63b292b077f6cfafa992c9f0da9d89d1aaf7cf0806",
+        "video_id": "IeqpopP18VM"
+      },
+      {
+        "normalized_hash": "b2dc300414e2c263ec277b0459e6814937bef73e60bfed6ca13434e7096b04aa",
+        "video_id": "12KacpcZfbs"
+      },
+      {
+        "normalized_hash": "e1596313e539402c0bc3d2b8c518682d3ddc4175999314f914677fb3bb918ff3",
+        "video_id": "eW5EUP4_790"
+      },
+      {
+        "normalized_hash": "eb2634278cc06cca39eabb099cfc0c59157bcb6ada263826ef39a2a8d85d1243",
+        "video_id": "OQvJYHg3yR4"
+      },
+      {
+        "normalized_hash": "35c39e7350bb1b868fb9d9b753d64559c98a80792bd479253bac1230ecd04136",
+        "video_id": "wbMScKDpMhE"
+      },
+      {
+        "normalized_hash": "32ddad8fcad597be3e635b5584f37aa598dca2f70e8419e6d42754671f69a0d4",
+        "video_id": "5U4kXc8QiD4"
+      },
+      {
+        "normalized_hash": "f13c4fb8ab6fe6b14831ad272dfbee7b993599671ec5bb13074364c5e2a809c0",
+        "video_id": "Ex36Tx959OM"
+      },
+      {
+        "normalized_hash": "86f056a587b5e370e280b442b94fced366907243af953c9bff7f071e1053bde3",
+        "video_id": "ZFTwXePX8MU"
+      },
+      {
+        "normalized_hash": "72a149760587f2f26c87b569ade756a049cd20fe8ceb5f08ee121b159d47cab2",
+        "video_id": "Pw8e2goShNI"
+      },
+      {
+        "normalized_hash": "3207932f6792a5018042fe5c402899510cd4d9c84a9f1031ff414958e38b1ae7",
+        "video_id": "QacLmvThNFk"
+      },
+      {
+        "normalized_hash": "c1eb316ac6528ebddb043babac38148eaa5d1347f1b5d88c9dd0429d1b305b02",
+        "video_id": "4IbpK6p8Yy4"
+      },
+      {
+        "normalized_hash": "9e2a64c7166222bdfdb2b2730c49626348fa0d5745d7465970d350c6e15aba1c",
+        "video_id": "yK6W6zqTj7k"
+      },
+      {
+        "normalized_hash": "d78fbc9cf49fc3d1093cfa710e4dbe72fe80b77090e59ad510589cf3ee596bfc",
+        "video_id": "AFH2FhMot1k"
+      },
+      {
+        "normalized_hash": "d401de6449845857e36fc7f009b6bd78a7a66eed2b3eda83b36788d19cc733ee",
+        "video_id": "GjwAmA9np7c"
+      },
+      {
+        "normalized_hash": "5951c49d64ac2548ea658afb4f2863beba2d0b11c31211007e7dd8dbb4b170c4",
+        "video_id": "ZtUM8xDXExE"
+      },
+      {
+        "normalized_hash": "4ff0f11a01fc459251a119566a8827b36eba3a61f923af098d3e72e2c89e64a2",
+        "video_id": "7dtD3ql9b8g"
+      },
+      {
+        "normalized_hash": "0dce54410c09c4c863a1f259dac018c6ba99ffc0761ab51a772359ec4efe37ed",
+        "video_id": "W8u7mpaOUBA"
+      },
+      {
+        "normalized_hash": "27bfae4682cc807bdbf29a03d60f7319fafed96f5ebbbe8e3fd4bb5ee7f07ce8",
+        "video_id": "GLBPSb_csRA"
+      },
+      {
+        "normalized_hash": "475ba70e906af5582ea77bb2ac754bb560917bbd0c0330a9f1d0a3730e6665ac",
+        "video_id": "qPgingyuheg"
+      },
+      {
+        "normalized_hash": "63a7a5d0ca37e241e2182fcd3bcad150d579298b42a4dc40ae7c1e289b4d9b0d",
+        "video_id": "zfgBszY-tdE"
+      },
+      {
+        "normalized_hash": "fe860f35c22013c04b69f7e189a1222f640fb86544631926ec2d4e4cc15bd17a",
+        "video_id": "vRcXC9tMqVI"
+      },
+      {
+        "normalized_hash": "523ed6c4a7b5569149c3e19dd3e66b0f38e9a99d7f4536140d02d4f73d2aca43",
+        "video_id": "oADHdNwrp3c"
+      },
+      {
+        "normalized_hash": "afd8f547adf88f2085b16822b1c64cfd1948923bcf1e2792a4c895f39b2024b8",
+        "video_id": "5jwLSQaRP60"
+      },
+      {
+        "normalized_hash": "087fd5522479343313ea64f0ba52c53a8a25d1060cfaed633c9f74f731d261de",
+        "video_id": "C16vd7xt_bk"
+      },
+      {
+        "normalized_hash": "efba08c92c66d6d0cc9e02a9e522be2611ae1b63c651ecf7be114ad4e29f9a69",
+        "video_id": "9lBRW2QAhuM"
+      },
+      {
+        "normalized_hash": "05d4daab76918108d4f6b12db57481ab876efd741c4469e1e5e6c5f17ce0a40c",
+        "video_id": "KNFSB1-9mW8"
+      },
+      {
+        "normalized_hash": "edffbd092d80d0f76e362c0b561c36d99c7c98871f5e8b1eec5c0bbbc930f42a",
+        "video_id": "BawHKpsWO-k"
+      },
+      {
+        "normalized_hash": "55723a3f90b6961cdf72c5ea188d5e16e542f335a79cbb9ca32815bd64f8dded",
+        "video_id": "5bfRJ6vUFFY"
+      },
+      {
+        "normalized_hash": "96b5c1d84d1dd4a5761a807d1f787e8779451da8f91c0f1d10bbde7791787f80",
+        "video_id": "ucOy5d03VuY"
+      },
+      {
+        "normalized_hash": "7e87768390c2d846209310bf3688d8ff9c507e3e00cb601fa32b3edeb4eaf932",
+        "video_id": "5RJtQF-P850"
+      },
+      {
+        "normalized_hash": "7b8978a02c01cb450ab42552b47f0ebebd4a85531e1ed01abad58c12629862e1",
+        "video_id": "PVWun9jfSac"
+      },
+      {
+        "normalized_hash": "e7f3cf00983f3edd74e8e22b8aeac2a02ed61f8951b05b33a513dfd6168b33a1",
+        "video_id": "K30IJQJonf8"
+      },
+      {
+        "normalized_hash": "7f14bdc9910ac857a63fe4ccce4f82111057255053bea37821f51ea2412a3900",
+        "video_id": "niEp25WIHgM"
+      },
+      {
+        "normalized_hash": "03f2cd9428b2ae065a848d5378c70e19637a21536002c3d8b1af39737e0cc510",
+        "video_id": "Unfv1dkPn1k"
+      },
+      {
+        "normalized_hash": "ba0b28caa0dbf8614cac8c9f238de5fd372e42156a470a8254dadd7af7d32e49",
+        "video_id": "415buxj4F7A"
+      },
+      {
+        "normalized_hash": "2afe4a3b7aed01043421b61122c2d29c00c099857eabaa901f5487539e1cb115",
+        "video_id": "0E-vVjS-V3Q"
+      },
+      {
+        "normalized_hash": "c5870d4be4d133184ed8f8301d22f7baf7da47f222be99effd0ce46794965bd1",
+        "video_id": "a0Aa4rQ9wzI"
+      },
+      {
+        "normalized_hash": "29c57cc5b03f3a19becf9a00c95c5aade475fbedfff2f36eeae97c9a89ac4971",
+        "video_id": "OC-lMf-x5Ng"
+      },
+      {
+        "normalized_hash": "f7a558a2b0f9c3887ce71748802915b89380e36921bbf96dc128b863d1e755c7",
+        "video_id": "Tbs77T9EeIU"
+      },
+      {
+        "normalized_hash": "641e71f5515b0c1eac1e3ea1bbeb76b156f3fcd873566bf16915ef15e10e8b94",
+        "video_id": "EyFC-TtP5hA"
+      },
+      {
+        "normalized_hash": "c5c634c3a47428c9fc3cb6e2527982cba73197a81b8a2a7a6d6e47ca2436e071",
+        "video_id": "VMr71-p6maQ"
+      },
+      {
+        "normalized_hash": "a486d21bf9e5ec4adcbf5ab79cc71841c31748393b9ef30faf5f728ad7b64223",
+        "video_id": "VtUxcOSi9us"
+      },
+      {
+        "normalized_hash": "a6c2068ff292a53d2a41fe3067d64d1ddc8aba6c6b7048204f54bbe1a1197e63",
+        "video_id": "WIQfLQ0FqhQ"
+      },
+      {
+        "normalized_hash": "86ae7ec17787f1ce984c4bad4b07858d0f5d24f77dcd4f3b656c9e994fc83cf0",
+        "video_id": "GZ_v1YFLXA8"
+      },
+      {
+        "normalized_hash": "23be816da2d371a7318790c556c33484a969d59f7ec8904c0c84ce4d330df8f2",
+        "video_id": "jVDSJn6Szps"
+      },
+      {
+        "normalized_hash": "99307e3906e12c1cb5c28b2c0f0abd15ee8635449cad930bb3596ade84e05039",
+        "video_id": "R1G595FXbKA"
+      },
+      {
+        "normalized_hash": "8a7aa29a01376012d2b14199445f357684b7973885cf9e0fdf7cc22efecd7b98",
+        "video_id": "Y-bBTXeC5xQ"
+      },
+      {
+        "normalized_hash": "f19077fc2e32df6738ee1336845e7f2c83c3524ea18fbf482db64b8f06f7e4d5",
+        "video_id": "CI1SRfMItYA"
+      },
+      {
+        "normalized_hash": "e3936269b6ae737b49825434c02a6373057d956378b3501a3e05e62b4b5f0e56",
+        "video_id": "1657T-XqKi4"
+      },
+      {
+        "normalized_hash": "cd0577c33c9c5896751823293cad7b9f99a7535356e65ee4f7a1c87d04303571",
+        "video_id": "Cbk-qhWZpyU"
+      },
+      {
+        "normalized_hash": "24215963df91362282db98409146f3739c2ae62033c6e091057071759cb1abd4",
+        "video_id": "uq5W0xwZYOE"
+      },
+      {
+        "normalized_hash": "9104fee00b9399152d29ac14d753310b432bfa11291b77055f1140f1c54d3fde",
+        "video_id": "rgQMggZKVzo"
+      },
+      {
+        "normalized_hash": "3b7f90d817443c6ac5117defc0324ee38ef25b25c1e93d2e7dfe231518efcf39",
+        "video_id": "QCPwkAkOug8"
+      },
+      {
+        "normalized_hash": "e47e7cdfab953522ae8c7b52f86c5b8e928151a68ba86f5cd41d4a58ff4d264b",
+        "video_id": "PALJL7hohg8"
+      },
+      {
+        "normalized_hash": "53af8384a03cfbcab3096d4fc5e57a90e087de21290b85af8d6efff3b39b40b0",
+        "video_id": "o8FnvsM0YYY"
+      },
+      {
+        "normalized_hash": "3cf0ff2999e7e4e249ed11eada547e1ed42b664325203f23c0836acef3be0270",
+        "video_id": "b_tNh2qUydM"
+      },
+      {
+        "normalized_hash": "b6a9f0ee2d7ae777cb0a13be5b8177409e952f3e06ff42960c074d5ea490d0a9",
+        "video_id": "cPjA4V-DGf4"
+      },
+      {
+        "normalized_hash": "47414e4e5efcdcec7a23698098877470d60c6ffd7d452b1d13d7794987de3843",
+        "video_id": "XtmpNVN2ckY"
+      },
+      {
+        "normalized_hash": "5ee8fc42eed8f5cc560c6c931a760d3fc7890ff302b9d4a4bd4008872f914c27",
+        "video_id": "jxjCa-m0IsQ"
+      },
+      {
+        "normalized_hash": "c0c282aa1b90905ea9e8169426bfeb1051c90138813afe1c1f7c92d0151e6d3a",
+        "video_id": "ws9Q4v-mFtE"
+      },
+      {
+        "normalized_hash": "c204d7b536ca8d6f24723772157f953a55df830b9a676084b792d1a41d68ba6b",
+        "video_id": "tcvsL79MAkk"
+      },
+      {
+        "normalized_hash": "99e3a0866db28499b07cd8fce7e66e55e71c7e16cb1eecb1070ac0e7372f2438",
+        "video_id": "aASvR_7TSN4"
+      },
+      {
+        "normalized_hash": "46f86937237f962c33cfda9b89b60d084bb79c232975ea36c94d4048d6fa0a36",
+        "video_id": "cbAKxR2nRpI"
+      },
+      {
+        "normalized_hash": "08d2adec2d5ca8d39043b576b390246c29c1af17287507c6f0c72694126cd370",
+        "video_id": "mNdqNEZvH7I"
+      },
+      {
+        "normalized_hash": "7ec67acfe0133073a73ae66f5cd77efb06606fba6783ef32e6c4edad86aec6db",
+        "video_id": "_E0hKwLLz4I"
+      },
+      {
+        "normalized_hash": "81dfce428911fac756d31fe01e896ccf6c02f41bade538a8125f904bc06a5a32",
+        "video_id": "V2cGLBo5cCQ"
+      },
+      {
+        "normalized_hash": "a4a4d22173dc62e9417a2a0c9457027cfa9dfcae047054fbc77591bb156308e5",
+        "video_id": "9Od0xJi4R4A"
+      },
+      {
+        "normalized_hash": "006dcf9076bceffb3390278c6064bd8887c524ed3177cd41f7dab85d3185fdc3",
+        "video_id": "EgFoJo7fClg"
+      },
+      {
+        "normalized_hash": "a1f690b54a3221eda3f8764cb6a9dc4ae3fdc8390465e1c296190174f241ea43",
+        "video_id": "FxyuzCI2wJc"
+      },
+      {
+        "normalized_hash": "af9ce792e001902dad27ca2a9f3848af919dc0976ab516e77a293c5cd14a3f23",
+        "video_id": "Vtdx07YxCWg"
+      },
+      {
+        "normalized_hash": "6fbfc35fbd25c9c06913c1d50578321957451f482c60d0b077eaf9e59ff3a690",
+        "video_id": "3XD9jNYKE0M"
+      },
+      {
+        "normalized_hash": "aec7cc7948803b9f374f685fbbd023ba3140d2a588330c4c0eb67baa23b01241",
+        "video_id": "XyXxAYFLPKY"
+      },
+      {
+        "normalized_hash": "4e5f0f9c83d8b77859b6cf4bbc5179aa4e5ec9dade1faa11fa5bd3ec7a743fd3",
+        "video_id": "w1tm6Q3lvgU"
+      },
+      {
+        "normalized_hash": "d6b5b837a962397787687312580aee8cd49d5f4dbfaea9dec53f29c71b58e4fb",
+        "video_id": "_3ZrEFNBbVI"
+      },
+      {
+        "normalized_hash": "a197c730e22296d4481d2a05a96b205212edc489b3f716a0cf403fe713698326",
+        "video_id": "MhsX8SZicA8"
+      },
+      {
+        "normalized_hash": "9570f6f0756ccd73a3ae957b82b7dc0c135e787df8e4121f83883f7fd45c4a73",
+        "video_id": "gi8Y05bfJEU"
+      },
+      {
+        "normalized_hash": "aa700637d1c9f71a4536f432ade2621e13baf17a5a723f168e5137792350d474",
+        "video_id": "cfKAwsnLGN8"
+      },
+      {
+        "normalized_hash": "37cfe6b8d294b1971e02c76d34db7676ebb54a70e1fc49f255044686bd552942",
+        "video_id": "oeI_V-hnwFc"
+      },
+      {
+        "normalized_hash": "500ee808e53b9b71d666a5e9c4da2475dbee018c9d55c20518de1f78713b4df1",
+        "video_id": "a8zbAYh6B0M"
+      },
+      {
+        "normalized_hash": "d06138b61072a907043ce66637447b2dfdbaf44c303fe6ca00e5b80897a950af",
+        "video_id": "yutSASVZ3-4"
+      },
+      {
+        "normalized_hash": "f7237796cd3de14b425d88d4ff79166e125ed6f977ded9867f75d60ad9816386",
+        "video_id": "hoWb9Jh2VKQ"
+      },
+      {
+        "normalized_hash": "0d74d3a343477e5b072b2476afce8c511a1b0ba94c2142c2ecb44cb9dca57dfe",
+        "video_id": "QOwwYJQEio8"
+      },
+      {
+        "normalized_hash": "2a8b1874f608bd55f2a5d6293a657e6ae6b5f0c10883083db26d1173a08d6309",
+        "video_id": "bu4Qje6A3-E"
+      },
+      {
+        "normalized_hash": "6701235ec803bbac57ebd959b22f982b14bef354d9ce876450a190214f2d2590",
+        "video_id": "0tjRrWWQGoc"
+      },
+      {
+        "normalized_hash": "bcc2621c88eea5b3957e3ab75ad8b25e7f2b146a91a0b7e587498c364c479721",
+        "video_id": "kDTdYQ2mQfc"
+      },
+      {
+        "normalized_hash": "5b57450718b4ab02b00faf5dbea4a1cc410bec73466bfe160a52ce00d12b6c5d",
+        "video_id": "-glWDhEyw14"
+      },
+      {
+        "normalized_hash": "a6ec0070ab1e47229da89aaed3d5a59511055a9265d0b385c0077999c644e57b",
+        "video_id": "yTDl1HRsVNg"
+      },
+      {
+        "normalized_hash": "501b595fe826bb574a7cb1cc726109d7461bd9324adac9d939f17f2841cecaad",
+        "video_id": "thvIUsegPQw"
+      },
+      {
+        "normalized_hash": "f308a953bfeb7df704e669907f6ec6756564faaf884eec57b29c40a286e08d68",
+        "video_id": "zHlXPLyDZfg"
+      },
+      {
+        "normalized_hash": "8db8d09232590bc8ee41d1f2774dfa8b226fa821f281a7d6aa9faa4c512926b2",
+        "video_id": "QU8dQWHxDnk"
+      },
+      {
+        "normalized_hash": "739ef95f4e71aa580bf6c8807758be081ddc9646dcc8280bf197be5a8051fee5",
+        "video_id": "dAHEACDgzkw"
+      },
+      {
+        "normalized_hash": "b5e9ca637aa4ecf1cc3a44793b187fa415f1569962c364c03b61cb8cb91f561a",
+        "video_id": "it3GULzrVzM"
+      },
+      {
+        "normalized_hash": "1672cc8c7d72f65dd7bc0873706afe94d0ea080e15a2fe663cda8dcdb2601738",
+        "video_id": "fMZYdiu5vMA"
+      },
+      {
+        "normalized_hash": "4139af3b05d9c46193620f80108b277de3328acadae895b6e82a38a2de68be8e",
+        "video_id": "-6_ATKY5GDc"
+      },
+      {
+        "normalized_hash": "8b63bda6e04544ca4e75d991d41e5d82739797f4866657c12df66d3d510c2af7",
+        "video_id": "va4DGbO-aI0"
+      },
+      {
+        "normalized_hash": "1b4a18c960ced48b598cb4edbb18a9b921c071d631b9fb91bda9de25615bc223",
+        "video_id": "e2kwQDe2GVo"
+      },
+      {
+        "normalized_hash": "880798c8f518103166394075a1c18f3c1dbf287765eafd0961be28d63bfe469b",
+        "video_id": "a9x3r7Mt0bM"
+      },
+      {
+        "normalized_hash": "e696982fb2e4f365655d9356e3a313e4139d970ed76e2533841260f02cfc9d6e",
+        "video_id": "SmdtDfIjvOQ"
+      },
+      {
+        "normalized_hash": "334ad7e4900f47ebf86200905f803e510e30def594b837271b234b76b54990fa",
+        "video_id": "Px7_OL5WLCw"
+      },
+      {
+        "normalized_hash": "04e973c65cf8ffbd3cf722a7e391ae0509a2a64ae7b44ea69b2543b76cc27878",
+        "video_id": "kR568HlYrrk"
+      },
+      {
+        "normalized_hash": "d9750bd447e68a39f4b4827807b5c5e568a4c5eb3adf80a93fa71deaf7d10cd2",
+        "video_id": "1jSP0sS6Z9w"
+      },
+      {
+        "normalized_hash": "773f9047bd0bfe9a5e7530c386a1e16316c12da967e07c0819e8521b71e935bf",
+        "video_id": "9dxTovFE_1E"
+      },
+      {
+        "normalized_hash": "fe50eda6657c4fc45288f26c69d2c28f204d9cc53c8f1cb8f6357b6976d90a7a",
+        "video_id": "gEkcuiG4XBQ"
+      },
+      {
+        "normalized_hash": "094f9125694da20daef67c9f49e060dee521a106643d297bd666816008cec146",
+        "video_id": "DDP3rg-VZ7A"
+      },
+      {
+        "normalized_hash": "417126b05e91b7227c5ee297e2e55ac34a39442327ce026091275a5244621b46",
+        "video_id": "n74KWXtncDU"
+      },
+      {
+        "normalized_hash": "358bea1e634f6cafff1b7b08f5775023d3e08f6902146d8d7e17e8d661c39d7a",
+        "video_id": "ysQEDtsJ8lE"
+      },
+      {
+        "normalized_hash": "f37295bc6fbb4450cc18d4da324f8587bb33d9cbf4dc05543c41ed326fe877f0",
+        "video_id": "aXUoodduwcs"
+      },
+      {
+        "normalized_hash": "99d5375dc54061d71ebb3d568b167c4bf757b7a9f8478e605a0965050f8c24c0",
+        "video_id": "RXBIhzPBsHo"
+      },
+      {
+        "normalized_hash": "b4ce580d594d12cabb1268fda5a3f6f0311340383840b35a983360793c439328",
+        "video_id": "-nT35EYfsJY"
+      },
+      {
+        "normalized_hash": "c4a8af9e736b98d945bcc22b006b5d3c712c8300940ded77b39b1fd786a0ad01",
+        "video_id": "feo2znBy8Zk"
+      },
+      {
+        "normalized_hash": "f7a12a1c629aab02c5e0e05cbb8449aeccefacb7339d0da232664cb1d5852a9d",
+        "video_id": "BhsBlVVvoS8"
+      },
+      {
+        "normalized_hash": "357d72edf155bdf34ab42297f5d3e5112a5f0c54996d8227adbd6399158a7338",
+        "video_id": "idJBuqZ9F3c"
+      },
+      {
+        "normalized_hash": "d5e8ec592876141f46903106a6ed9c84c41453edde31a75db16befdc4aa767c4",
+        "video_id": "f_AQa2_27vc"
+      },
+      {
+        "normalized_hash": "66e01cd9353d77d84b9b7a32e77a16ce3d431546e5b7375cab011d7e75a5cb20",
+        "video_id": "RQ0dc5la_7Q"
+      },
+      {
+        "normalized_hash": "84514204ef90c1c43923a531b249feef0431bf217e9cf5c63d3f8f6ba77ef2a3",
+        "video_id": "UjLR5F4vmiE"
+      },
+      {
+        "normalized_hash": "0abb60c401479e56cd0aaf9de2cdec8b3ffe11ab7ec0b6cec63a6c0316d014df",
+        "video_id": "3gcKASAIe5I"
+      },
+      {
+        "normalized_hash": "a1c382822da8eece1811e59c9075a2b53e5aac0a9ed1414d805226836d8d2b39",
+        "video_id": "tSQLIKUbGvY"
+      },
+      {
+        "normalized_hash": "30b1f6a1843723be802d40ec63b8e6de9b2b37c785ee334d9cd56becef74e740",
+        "video_id": "N2TAEs5FuRk"
+      },
+      {
+        "normalized_hash": "5e25bb8e360f9fb913c2f8d23182aa85626b54c63cf90a971c4cd5504392772a",
+        "video_id": "TJbc9BvTDC4"
+      },
+      {
+        "normalized_hash": "aada466c4f4d63230aac5fc2855165b1c4560386d959249b4f919c2e84834eca",
+        "video_id": "yER1_9fd4Hg"
+      },
+      {
+        "normalized_hash": "8694dec9b27d01b7a65bcd7d4b6ccc86f017fec77f0b8faaeeef6c42a47dcdf6",
+        "video_id": "PHuwM0wmxSg"
+      },
+      {
+        "normalized_hash": "e27605d5200fc2f223dad71893995f59423908f127b9b3ed31574673d74c5977",
+        "video_id": "pWSEFJfx57U"
+      },
+      {
+        "normalized_hash": "6507b1d2c602ac2893a03fef2403d257d6ccce9c2da4d031f0f0bdf1bb79829b",
+        "video_id": "geTlW_9fzeg"
+      },
+      {
+        "normalized_hash": "2d4a623a31913fe4b730920e65150f52dcee199ebad3c32bab159402d04a9ec7",
+        "video_id": "GlYkQo-_J0Q"
+      },
+      {
+        "normalized_hash": "2f7e580456bd36bcf4b36a46d1c83378864550d065bc79ea84577cc231ba3842",
+        "video_id": "U0aF6Kp6i6k"
+      },
+      {
+        "normalized_hash": "d3716e97be04aa21fcbf8d3afcf15e2543750a922a9280257c6c87d4a0f0226e",
+        "video_id": "v-CnP5JZX0I"
+      },
+      {
+        "normalized_hash": "6bbaf9c56561c3e13487b62a3e281954e886b172c38e1ea5dd8a793719756f44",
+        "video_id": "PI5DuEOPaZ0"
+      },
+      {
+        "normalized_hash": "ac1e1dcd53c93baeb45062b985fe98d6243f44efc4d0887bf28ed9b584a1c483",
+        "video_id": "i288Z70Rk2M"
+      },
+      {
+        "normalized_hash": "77906da27816f9ec5f59e96d9bd43176f5b5cf50d58441744129f9ff5e19423b",
+        "video_id": "NFT13R2xXAw"
+      },
+      {
+        "normalized_hash": "bb8cf34a6ad5e4534a0b8f1dc2fa977198a5ce611fbe4a2d0a906d7d8194fceb",
+        "video_id": "TE_qJGN6Q4g"
+      },
+      {
+        "normalized_hash": "303ef5935a40182336441c3fc27ace2f92ead3de3c0e9b8d05e9a06c571bbc15",
+        "video_id": "50Xpis5sjPE"
+      },
+      {
+        "normalized_hash": "86aa179b44c68f61c410d1fca6b14766716fa617807203b801d73d07b81e42c0",
+        "video_id": "Zw46V8Kg_OI"
+      },
+      {
+        "normalized_hash": "ec94234b97b16263ee2ee6f364439fe39953f9629cb17189f3a68ba566105f06",
+        "video_id": "Hc0Tt2fVTL0"
+      },
+      {
+        "normalized_hash": "4ec27d1fb9d11d69796dc3075071983771c33798bd3928eee7d869e8a03f54a0",
+        "video_id": "9yOTi6PknR8"
+      },
+      {
+        "normalized_hash": "4fac89bddbe36cf9dadfdeda5973f4e7e490fab845f9eff4122611753d45fbce",
+        "video_id": "Zo21ZaNytLM"
+      },
+      {
+        "normalized_hash": "c602e1281049e6aefec8269df2b356c8383e04c1d9354eb99a77856eb22e5902",
+        "video_id": "j8Yp-E77JBc"
+      },
+      {
+        "normalized_hash": "6d1eec9d2047962e11c9501bc7d164b59850ff1489a809899b9d0b0e2552c965",
+        "video_id": "jIuTeFlCOYE"
+      },
+      {
+        "normalized_hash": "9f6b66b5d4055965d3bf37e5098c2f4363efb630d5e990e0e2081d02cb11c72c",
+        "video_id": "bJxDzgvW0Kc"
+      },
+      {
+        "normalized_hash": "48060ad92870fbf028c5a23616e3bf48594670391c622a0667e5f4cf87a6c8e6",
+        "video_id": "knBWaHKZmQw"
+      },
+      {
+        "normalized_hash": "9eb9f384f33af19d14e7c48223b81e22431571799edcff42a686ba0205d7d2dc",
+        "video_id": "xR6qT6xG898"
+      },
+      {
+        "normalized_hash": "50673a4744c572e338acd3035b2e9c46e3e89a7ecff78d82f3f2c07e914fd1f8",
+        "video_id": "DTulYoG7q5o"
+      },
+      {
+        "normalized_hash": "5b14dbf6f5490ac5be0676c42e6130e1f5b8528606ff628f6d046dd83b7b1dc4",
+        "video_id": "EIJsUykH6rY"
+      },
+      {
+        "normalized_hash": "16c199e81d89791773145c66cdb8679340a89cd7849f6b0037504e232f5c4e03",
+        "video_id": "eIJlSdwLjzY"
+      },
+      {
+        "normalized_hash": "f80fd7df2bf794e54bd1026db2bc5f986fb070f948213642d9291644faa28b46",
+        "video_id": "xSUqEmBipL4"
+      },
+      {
+        "normalized_hash": "6dd82659661ad324f815682d0fe331783fb99520e0223fb81c6aca00da72ac38",
+        "video_id": "hVC1B88wR2s"
+      },
+      {
+        "normalized_hash": "68729da22f5cc46d23ea08dd5bbcda723c0d128b6a3158fa52c42937e84681fb",
+        "video_id": "G8QZchGxTYE"
+      },
+      {
+        "normalized_hash": "7a1229d4f34b9306459cbac1f2b39255b30e6fc3761c063b2a8524536ae7acd8",
+        "video_id": "wEozfS-11WM"
+      },
+      {
+        "normalized_hash": "76515b036fe32cef6bbc12b7f0ad5905003455389111eda001e87496a8ccade8",
+        "video_id": "eO3tcEo__60"
+      },
+      {
+        "normalized_hash": "114592654f40b24949cc851f9a4c62553154ee1f501f33100b26d3de5fba5f08",
+        "video_id": "Cxv65sopybc"
+      },
+      {
+        "normalized_hash": "92863406291d48a8883b8fcde117d636f249d3a390b5cb4bc4acf0c566cf8731",
+        "video_id": "VoxrxmUN4K0"
+      },
+      {
+        "normalized_hash": "b41eb32d4d24a7ce9b6acc590262218eba5867da97032fa6a449309f0753c321",
+        "video_id": "oMbmgkiIIYA"
+      },
+      {
+        "normalized_hash": "405256c6fb84ed9fa9939eb64ed6b7746463f62e1d695c197389d22c9e1954b0",
+        "video_id": "WyeKbcqEyrI"
+      },
+      {
+        "normalized_hash": "e438776901a6e145a5cac37a78eba5456acd0559a815fbcc34a5ff059f3a85cf",
+        "video_id": "-lGDTG10Fys"
+      },
+      {
+        "normalized_hash": "02bc2cc055606adea4de860de7080bce1a7964c60a6eb3b92828fecbc9d80bb8",
+        "video_id": "tI1m5vQrxrE"
+      },
+      {
+        "normalized_hash": "272723e9c900e6d8ada0d1105e1c775b9e3ed35d0e55ac6206d22a3aceee549c",
+        "video_id": "R20o2fbx5pQ"
+      },
+      {
+        "normalized_hash": "8a19b3a5d78e105bf8ab453b7cfc3efd5e6df9ff9e0a13a39b4208baef9521ed",
+        "video_id": "6lKrjvq8srg"
+      },
+      {
+        "normalized_hash": "0a4359a6fb463f1445a531fc8c5206d02928f89b76babf3bb1f369d97123b1b6",
+        "video_id": "NIOgg8N3wXU"
+      },
+      {
+        "normalized_hash": "2847bff5d64a9d746f81699cc5dfca9700bce73b33d4a77485f7ce4b2ce79338",
+        "video_id": "Z9r53a1h7Ns"
+      },
+      {
+        "normalized_hash": "b9a09b766539e8be3dda29808fe479e703242936b83bf7b2d1e7a0c9036d5ccf",
+        "video_id": "wl8xQGcaXus"
+      },
+      {
+        "normalized_hash": "96b167ba49e1e23b87e241ef7f77588254239860035d48cfd65dc198f9fa8675",
+        "video_id": "YEZLrY9aHVU"
+      }
+    ],
+    "scope": {
+      "basis": "downloaded VTT files in the working directory only",
+      "channel_history_complete": false,
+      "note": "Members-only, deleted, unavailable or otherwise inaccessible videos are not represented as analyzed documents; the full channel history is not known to this pipeline."
+    }
+  },
+  "executed_at": "2026-11-07T19:35:22+00:00",
+  "models": [
+    {
+      "K": 12,
+      "converged": true,
+      "corpus_hash": "2425069e6de8ca27f7fb42412894081768ae09ef2108461994824148074a7698",
+      "created": "2026-11-07T19:33:14+00:00",
+      "features_id": "tfidf-2425069e-seg-1-873ab5-8cbb91",
+      "kind": "refit",
+      "max_iter": 400,
+      "model_id": "nmf12-2425069e-seg-1-873ab5-776199",
+      "n_iter": 178,
+      "n_passages": 1943,
+      "n_terms": 33994,
+      "reconstruction_err": 42.434379094857135,
+      "seed": 0,
+      "segmentation_version": "seg-1-873ab5"
+    },
+    {
+      "K": 20,
+      "converged": false,
+      "corpus_hash": "2425069e6de8ca27f7fb42412894081768ae09ef2108461994824148074a7698",
+      "created": "2026-11-07T19:33:27+00:00",
+      "features_id": "tfidf-2425069e-seg-1-873ab5-8cbb91",
+      "kind": "refit",
+      "max_iter": 400,
+      "model_id": "nmf20-2425069e-seg-1-873ab5-776199",
+      "n_iter": 400,
+      "n_passages": 1943,
+      "n_terms": 33994,
+      "reconstruction_err": 42.141481241877145,
+      "seed": 0,
+      "segmentation_version": "seg-1-873ab5"
+    },
+    {
+      "K": 30,
+      "converged": true,
+      "corpus_hash": "2425069e6de8ca27f7fb42412894081768ae09ef2108461994824148074a7698",
+      "created": "2026-11-07T19:33:39+00:00",
+      "features_id": "tfidf-2425069e-seg-1-873ab5-8cbb91",
+      "kind": "refit",
+      "max_iter": 400,
+      "model_id": "nmf30-2425069e-seg-1-873ab5-776199",
+      "n_iter": 196,
+      "n_passages": 1943,
+      "n_terms": 33994,
+      "reconstruction_err": 41.844928599142754,
+      "seed": 0,
+      "segmentation_version": "seg-1-873ab5"
+    }
+  ],
+  "nmf_config": {
+    "init": "nndsvd",
+    "max_iter": 400,
+    "max_per_lecture": 2,
+    "prominent_min": 0.1,
+    "representative_passages": 8,
+    "seed": 0,
+    "tfidf": {
+      "lowercase": true,
+      "max_df": 0.85,
+      "min_df": 3,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "stop_words": "english",
+      "strip_accents": "unicode",
+      "sublinear_tf": true
+    },
+    "top_terms": 20,
+    "topics": [
+      12,
+      20,
+      30
+    ]
+  },
+  "outputs": {
+    "document_similarity.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/document_similarity.csv",
+    "document_terms.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/document_terms.csv",
+    "document_topics.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/document_topics.csv",
+    "documents.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/documents.csv",
+    "passage_topics.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/passage_topics.csv",
+    "passages.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/passages.csv",
+    "report.json": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/report.json",
+    "stability.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/stability.csv",
+    "topic_concordances.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/topic_concordances.csv",
+    "topic_terms.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/topic_terms.csv",
+    "topics.csv": "categorization-results/2425069e-seg-1-873ab5-c9b2a5/topics.csv"
+  },
+  "pipeline_version": "0.1.0",
+  "preprocessing": {
+    "boilerplate": {
+      "enabled": true,
+      "lexical_rules": [],
+      "min_docs": 4,
+      "min_fraction": 0.5,
+      "shingle_words": 8
+    },
+    "normalize": {
+      "duplicate_cue_max_seconds": 0.1,
+      "max_overlap_window": 200,
+      "min_overlap_tokens": 3,
+      "strip_sound_tags": true,
+      "version": "norm-1"
+    },
+    "segment": {
+      "boundary_slack": 120,
+      "max_words": 800,
+      "min_words": 500,
+      "target_words": 650,
+      "version": "seg-1"
+    },
+    "segmentation_version": "seg-1-873ab5"
+  },
+  "representative_passage_ranking": "raw NMF loading W[p,k] descending, at most 2 per lecture, top 8 per topic",
+  "run_id": "2425069e-seg-1-873ab5-c9b2a5",
+  "similarity_models": [
+    {
+      "config": {
+        "max_df": 0.85,
+        "min_df": 2,
+        "nn_limit": 0,
+        "stop_words": "english",
+        "top_terms_per_document": 30
+      },
+      "corpus_hash": "2425069e6de8ca27f7fb42412894081768ae09ef2108461994824148074a7698",
+      "created": "2026-11-07T19:33:39+00:00",
+      "kind": "similarity",
+      "method": "tfidf_cosine",
+      "model_id": "tfidfdoc-2425069e-seg-1-873ab5-871735",
+      "n_documents": 318,
+      "n_terms": 16940,
+      "segmentation_version": "seg-1-873ab5"
+    }
+  ],
+  "software": {
+    "joblib": "1.6.0",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.9.1"
+  }
+}
