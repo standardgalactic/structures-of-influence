@@ -54,10 +54,34 @@ canvas{display:block}
 .tip{position:fixed;pointer-events:none;background:#000;border:1px solid var(--text);padding:3px 8px;z-index:9;display:none;font-size:12px;max-width:520px}
 input.lab{width:100%;margin-top:4px}
 .small{font-size:12px}
+
+/* Responsive public interface */
+html,body{max-width:100%;overflow-x:hidden}
+main{width:100%;min-width:0}
+nav{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+nav button{white-space:nowrap;flex-shrink:0;min-height:44px}
+.row > *{min-width:0}
+.row select,.row input[type=search],.row input[type=text]{max-width:100%}
+main table{max-width:100%}
+main > div, .split > *, .grid > *{min-width:0}
+@media(max-width:700px){
+ header{padding:12px;align-items:flex-start;gap:6px 12px}
+ header h1{font-size:15px;flex-basis:100%;order:-1}
+ main{padding:12px}
+ .grid{grid-template-columns:minmax(0,1fr)}
+ .row{gap:8px}
+ .row select{width:100%;max-width:100%}
+ .row label{max-width:100%}
+ .scroll{max-width:calc(100vw - 24px);overflow-x:auto}
+ table{font-size:12px}
+ th,td{padding:5px 6px}
+ .pass{overflow-wrap:anywhere}
+}
 </style>
 </head>
 <body>
 <header>
+  <a href="analyses/">Lecture Analyses</a>
   <h1>STRUCTURES OF INFLUENCE / CATEGORIZATION EXPLORER</h1>
   <span class="sub" id="runinfo">no run loaded</span>
 </header>
@@ -67,8 +91,8 @@ input.lab{width:100%;margin-top:4px}
 
 <script>
 "use strict";
-/* Offline viewer for categorization-results/RUN_ID. No network, no framework.
-   Nothing is displayed unless it was read from the loaded files. */
+/* Static research viewer. Automatically fetches published analytical exports.
+   No framework or server-side computation required. */
 
 const EXPECTED = ["manifest.json","report.json","documents.csv","passages.csv","topics.csv","topic_terms.csv",
   "passage_topics.csv","document_topics.csv","document_similarity.csv","document_terms.csv",
@@ -76,7 +100,7 @@ const EXPECTED = ["manifest.json","report.json","documents.csv","passages.csv","
 const TABS = [["overview","Overview"],["topics","Topics"],["heatmap","Lecture x topic"],["similarity","Similarity"],
   ["chrono","Chronology"],["conc","Concordance"],["models","Model comparison"]];
 
-const S = {raw:{}, tab:"overview", model:null, runId:null, warnings:[], ix:null, runsFound:null,
+const S = {raw:{}, tab:"overview", model:null, runId:null, warnings:[], ix:null, runsFound:null, loading:true, error:"",
            conc:{q:"",scope:"",topic:"",exact:true,cs:false}, heat:{sort:"date",topic:"T00",lec:"",norm:true},
            chrono:{view:"norm",topic:"T00"}, sim:{lec:"",key:""}};
 
@@ -131,35 +155,50 @@ function tip(ev,txt){const t=document.getElementById("tip"); if(!txt){t.style.di
 function modelLabel(m){return "K="+m.K+"  "+m.kind+"  "+m.id;}
 
 /* ---------- loading ---------- */
-async function loadFileList(files){
-  const byDir = {};
-  for(const f of files){
-    const rel = f.webkitRelativePath || f.name;
-    const dir = rel.includes("/") ? rel.slice(0, rel.lastIndexOf("/")) : "";
-    if(EXPECTED.includes(f.name)) (byDir[dir] = byDir[dir] || {})[f.name] = f;
-  }
-  const dirs = Object.keys(byDir).filter(d=>byDir[d]["manifest.json"]||byDir[d]["documents.csv"]);
-  if(!dirs.length && !Object.keys(byDir).length){ alert("No recognised report files in the selection."); return; }
-  const use = dirs.length ? dirs : Object.keys(byDir);
-  S.runsFound = {dirs:use, byDir};
-  await openRun(use.sort().slice(-1)[0]);
+const DATA_ROOT = "categorization-results/";
+// Used only if latest_run.txt has not been published.
+const FALLBACK_RUN = "2425069e-seg-1-873ab5-c9b2a5";
+
+async function fetchText(url){
+  const response = await fetch(url, {cache:"no-cache"});
+  if(!response.ok) throw new Error(url+" (HTTP "+response.status+")");
+  return response.text();
 }
-async function openRun(dir){
-  const group = S.runsFound.byDir[dir]; S.raw = {}; S.warnings = [];
-  for(const [name,f] of Object.entries(group)){
-    try{
-      const text = await f.text();
-      if(name.endsWith(".json")) S.raw[name] = JSON.parse(text);
-      else { const p = parseCSV(text); S.raw[name] = p; }
-    }catch(e){ S.warnings.push("Could not read "+name+": "+e.message); }
-  }
-  const ids = new Set();
-  for(const [n,v] of Object.entries(S.raw)) if(v.rows && v.rows.length && "run_id" in v.rows[0]) ids.add(v.rows[0].run_id);
-  if(S.raw["manifest.json"]) ids.add(S.raw["manifest.json"].run_id);
-  S.runId = [...ids][0] || null;
-  if(ids.size>1) S.warnings.push("Files carry different run identifiers ("+[...ids].join(", ")+"). They come from different runs and should not be combined.");
-  buildIndex();
-  S.tab = "overview"; render();
+
+async function loadPublishedRun(){
+  S.loading = true; S.error = ""; S.raw = {}; S.warnings = [];
+  S.ix = null; render();
+  try{
+    let run;
+    try { run = (await fetchText(DATA_ROOT+"latest_run.txt")).trim(); }
+    catch(e){
+      run = FALLBACK_RUN;
+      S.warnings.push("latest_run.txt unavailable; using configured run "+run+".");
+    }
+    if(!/^[A-Za-z0-9_-]+$/.test(run)) throw new Error("Invalid run identifier in latest_run.txt");
+    const base = DATA_ROOT+encodeURIComponent(run)+"/";
+    const results = await Promise.all(EXPECTED.map(async name=>{
+      try{
+        const body = await fetchText(base+name);
+        return [name, name.endsWith(".json") ? JSON.parse(body) : parseCSV(body), null];
+      }catch(e){ return [name, null, e.message]; }
+    }));
+    for(const [name,value,error] of results){
+      if(value) S.raw[name] = value;
+      else S.warnings.push(name+" unavailable: "+error);
+    }
+    if(!S.raw["documents.csv"] || !S.raw["topics.csv"])
+      throw new Error("Required analytical exports are missing from "+base+". Publish documents.csv and topics.csv.");
+    const ids = new Set();
+    for(const v of Object.values(S.raw))
+      if(v.rows?.length && "run_id" in v.rows[0]) ids.add(v.rows[0].run_id);
+    if(S.raw["manifest.json"]?.run_id) ids.add(S.raw["manifest.json"].run_id);
+    if(ids.size>1) S.warnings.push("Inconsistent run identifiers: "+[...ids].join(", "));
+    S.runId = run;
+    buildIndex();
+    S.tab = "overview";
+  }catch(e){ S.error = e.message; }
+  finally { S.loading = false; render(); }
 }
 
 function buildIndex(){
@@ -243,31 +282,27 @@ function modelBar(){
 }
 function loaderView(){
   const wrap = h("div");
-  wrap.append(h("p",{class:"note"},"Load a categorization run produced by nlp/pipeline.py export. Select the run folder (categorization-results/RUN_ID), or select individual report files. Everything stays in this browser tab; nothing is uploaded and nothing here is example data."));
-  wrap.append(h("div",{class:"row"},
-    h("label",null,"Run folder"),
-    h("input",{type:"file",webkitdirectory:true,directory:true,on:{change:e=>loadFileList(e.target.files)}})));
-  wrap.append(h("div",{class:"row"},
-    h("label",null,"Individual files"),
-    h("input",{type:"file",multiple:true,accept:".csv,.json",on:{change:e=>loadFileList(e.target.files)}})));
-  wrap.append(h("p",{class:"note small"},"Expected files: "+EXPECTED.join(", ")+". A missing file makes the views that need it show as unavailable."));
+  if(S.loading){
+    wrap.append(h("h2",null,"Loading research results"),
+      h("p",{class:"note"},"Retrieving the published corpus and topic-model exports…"));
+  }else{
+    wrap.append(h("div",{class:"bad"},S.error || "The published dataset could not be loaded."),
+      h("p",{class:"note"},"This explorer requires its categorization-results directory to be published alongside index.html. When opening a local file, use a local HTTP server instead of file://."),
+      h("button",{class:"btn",on:{click:loadPublishedRun}},"Retry"));
+  }
   return wrap;
 }
 
 /* ---------- overview ---------- */
 function overview(){
   const ix = S.ix, w = h("div");
-  if(S.runsFound && S.runsFound.dirs.length>1){
-    w.append(h("div",{class:"row"},h("label",null,"Run in selection"),
-      h("select",{on:{change:e=>openRun(e.target.value)}}, S.runsFound.dirs.map(d=>h("option",{value:d,selected:S.runId&&d.endsWith(S.runId)},d||"(files)")))));
-  }
   for(const x of S.warnings) w.append(h("div",{class:"warn"},x));
   const man = S.raw["manifest.json"], rep = S.raw["report.json"];
   w.append(h("h2",null,"Files"));
   w.append(h("table",null,h("tr",null,h("th",null,"File"),h("th",null,"Status"),h("th",{class:"num"},"Rows")),
     EXPECTED.map(n=>{ const v=S.raw[n]; return h("tr",null,h("td",null,n),
       h("td",{style:v?"":"color:var(--bad)"},v?"loaded":"unavailable"),h("td",{class:"num"},v&&v.rows?v.rows.length:""));})));
-  w.append(h("div",{class:"row"},h("button",{class:"btn",on:{click:()=>{S.ix=null;S.raw={};S.runsFound=null;render();}}},"Load a different run")));
+  w.append(h("div",{class:"row"},h("button",{class:"btn",on:{click:loadPublishedRun}},"Refresh published results")));
   if(man){
     w.append(h("h2",null,"Corpus snapshot"));
     const c = man.corpus;
@@ -587,7 +622,7 @@ function overlap(m,tid){
   return w;
 }
 
-render();
+loadPublishedRun();
 </script>
 </body>
 </html>

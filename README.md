@@ -1,5 +1,7 @@
 # Structures of Influence
 
+[Corpus Explorer](https://standardgalactic.github.io/structures-of-influence/) | [Lecture Analyses](https://standardgalactic.github.io/structures-of-influence/analyses/)
+
 **A computational study of political, economic, historical, and cultural discourse**
 
 Structures of Influence is a reproducible corpus-linguistic research project examining the organization, recurrence, and transformation of concepts across a collection of publicly available lectures by Academic Agent. It investigates how political and economic arguments are constructed, how historical thinkers and intellectual traditions are invoked, and how recurring explanatory vocabularies are distributed across individual lectures and the corpus as a whole.
